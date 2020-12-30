@@ -1,0 +1,246 @@
+/* GENERAL */
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.w-100{
+    width: 100%;
+}
+
+p, h2{
+    margin: 0;
+}
+
+.f-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size : 40px;
+    line-height : 50px;
+}
+
+.f-desc{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* BANEER */
+
+.f-banner{
+    display: flex;
+}
+
+/* ESPECIFICACIONES */
+
+.f-specs{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.f-specs .f-data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.f-specs .f-data .f-cont-wrap{
+    width: 30%;
+}
+
+.f-specs .f-data .f-item span{
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+}
+
+.f-specs .f-data .f-item p{
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 14px;
+    margin-bottom: 24px;
+}
+
+.f-specs .show-md{
+    display: flex;
+}
+
+.f-specs .show-xs{
+    display: none;
+}
+
+.f-specs .f-image{
+    margin-top: -9vh;
+}
+
+/* DETALLE DE CAMADA */
+
+.f-detail-camara{
+    background: url('./img/Detalle_Camara.jpg');
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    margin-top: 2em;
+    height: 62vh;
+}
+
+/* MEDIA TECK */
+
+.f-mediateck{
+    background: url('./img/mediaTeck-fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+}
+
+.f-mediateck .f-info{
+    width: 40%;
+    padding-top: 8em;
+    padding-bottom: 6em;
+    padding-left: 6em;
+}
+
+.f-mediateck .f-info .f-title{
+    background : -webkit-linear-gradient(0deg, rgba(245, 63, 7, 1) 0%, rgba(231, 159, 21, 1) 50%, rgba(8, 169, 42, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.f-mediateck .f-info .f-desc{
+    color : #ffffff;
+    text-align: left;
+    margin-top: 26px;
+}
+
+.f-cuatro-camaras{
+    background: #000;
+}
+
+.f-cuatro-camaras .f-info{
+    width: 40%;
+    padding-top: 8em;
+    padding-bottom: 6em;
+    padding-left: 6em;
+}
+
+.f-cuatro-camaras .f-info .f-title{
+    background : -webkit-linear-gradient(0deg, rgba(245, 63, 7, 1) 0%, rgba(231, 159, 21, 1) 50%, rgba(8, 169, 42, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.f-cuatro-camaras .f-info .f-desc{
+    color : #ffffff;
+    text-align: left;
+    margin-top: 26px;
+}
+
+@media screen and (max-width: 768px){
+
+    /* GENERALES */
+
+    .f-mediateck .f-info .f-title{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size : 22px;
+        line-height : 25px;
+    }
+
+    .f-mediateck .f-info .f-desc{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    /* ESPECIFICACIONES */
+
+    .f-specs{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .f-specs .f-data{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 8vh;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .f-specs .f-data .f-cont-wrap{
+        width: 100%;
+    }
+
+    .f-specs .f-data .f-item span{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .f-specs .f-data .f-item p{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        margin-top: 7px;
+        margin-bottom: 24px;
+    }
+
+    .f-specs .show-md{
+        display: none;
+    }
+    
+    .f-specs .show-xs{
+        display: flex;
+    }
+
+    .f-specs .f-image{
+        margin-top: -18vh;
+    }
+
+    /* DETALLE DE CAMADA */
+
+    .f-detail-camara{
+        background: url('./img/Detalle_Camara.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 2em;
+        height: 40vh;
+    }
+
+    /* MEDIA TECK */
+
+    .f-mediateck{
+        background: url('./img/mediaTeck-fondo-xs.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right bottom;
+    }
+
+    .f-mediateck .f-info{
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 4em;
+        padding-left: 0;
+        padding-bottom: 16em;
+    }
+
+    .f-mediateck .f-info .f-title{
+        background : -webkit-linear-gradient(0deg, rgba(245, 63, 7, 1) 0%, rgba(231, 159, 21, 1) 50%, rgba(8, 169, 42, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .f-mediateck .f-info .f-desc{
+        color : #ffffff;
+        text-align: left;
+        margin-top: 26px;
+    }
+}

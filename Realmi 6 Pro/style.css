@@ -1,0 +1,5995 @@
+/* ESTILOS GENERALES */
+
+body{
+    margin: 0;
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    flex-flow: column;
+}
+
+/* BANNER */
+
+.f-banner{
+    display: flex;
+    flex-flow: column;
+}
+
+/* ASPECTOS */ 
+
+.f-specs{
+    background-image: url('./img/Specs.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 532px;
+    display: flex;
+    align-items: center;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-sec-1{
+    padding: 18px 75px 18px 49px;
+}
+
+.f-sec-2{
+    padding: 18px 71px 18px 58px;
+}
+
+.f-sec-3{
+    padding: 18px 112px 18px 165px;
+}
+
+.f-sec-4{
+    padding: 18px 195px 18px 147px;
+}
+
+.cont-specs{
+    text-align: center;
+}
+
+.cont-specs p{
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size : 16px;
+    line-height : 30.26px;
+    color : #FFFFFF;
+    margin: 0;
+}
+
+.cont-specs span{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size : 16px;
+    line-height : 30.26px;
+    color : #FFFFFF;
+}
+
+/* TRAILER */
+
+.f-video{
+    display: flex;
+    flex-flow: column;
+}
+
+.f-video video{
+    border: none;
+}
+
+/* PANTALLA */
+
+.f-pantalla{
+    background-color: #0f0013;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 77px 80px 0 80px;
+}
+
+.f-pantalla .f-title{
+    font-family : 'Open Sans';
+    font-weight: 600;
+    font-size : 40px;
+    line-height : 48.78px;
+    color : #FFFFFF;
+    text-align: center;
+}
+
+.f-pantalla .f-info{
+    font-family : 'Open Sans';
+    font-weight: normal;
+    font-size : 16px;
+    line-height : 20px;
+    color : #FFFFFF;
+    text-align: center;
+}
+
+.f-composicion{
+    display: flex;
+    flex-flow: column;
+    background-image: url('./img/Degrade.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#f-herz{
+    width: 30%;
+    margin: 7em auto;
+}
+
+#f-phone{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.f-datos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.f-pantalla .f-datos p{
+    font-family : 'Open Sans';
+    font-weight: normal;
+    font-size : 22px;
+    line-height : 34px;
+    color : #FFFFFF;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 65px;
+}
+
+/* CAMARA */
+
+.f-camara{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('./img/fondo-camara.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    padding: 0 104px;
+}
+
+.f-detail-item:first-child{
+    width: 55%;
+    margin-bottom: 20px;
+    margin-top: 6em;
+}
+
+.f-detail-item{
+    display: flex;
+    width: 76%;
+    align-items: center;
+    overflow: hidden;
+}
+
+.f-info-camara{
+    font-family : 'Open Sans';
+    font-weight: unset;
+    font-size : 21px;
+    line-height : 38px;
+    color : #FFFFFF;
+    margin: 0;
+    min-width: 13em;
+}
+
+.f-info-camara span{
+    font-size: 53px;
+}
+
+.f-camara i {
+    border: 1px solid #fff;
+    width: 100%;
+}
+
+/* SELFIE */
+
+.f-selfie{
+    display: flex;
+    flex-flow: column;
+    background-color: #000;
+    padding: 97px 0 111px 0;
+}
+
+.f-selfie .f-title{
+    font-family : 'Open Sans';
+    font-weight: 600;
+    font-size : 53px;
+    line-height : 74px;
+    color : #FFFFFF;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.f-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.f-item{
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 81px;
+}
+
+.f-item img{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.f-icons p{
+    font-family : 'Open Sans';
+    text-align: center;
+    font-weight: normal;
+    font-size : 22px;
+    line-height : 85.3px;
+    color : #FFFFFF;
+    margin: 0;
+
+}
+
+.selfie{
+    display: flex;
+    justify-content: space-between;
+}
+
+.selfie .f-card{
+    width: 50%;
+}
+
+.selfie .f-card.first{
+    padding-right: 3em;
+}
+
+.selfie .f-card img{
+    width: 100%;
+}
+
+.selfie .f-card p{
+    font-family : 'Open Sans';
+    font-weight : bold;
+    font-size : 26px;
+    line-height : 56px;
+    color : #FFD000;
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.selfie .f-card.first p{
+    margin-right: -1em;
+    border-right: 5px solid #fff;
+}
+
+.selfies .f-card{
+    width: 100%;
+}
+
+.selfies .f-card img{
+    width: 100%;
+}
+
+.selfies .f-card p{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: 'Open Sans';
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 56px;
+    color: #FFD000;
+    text-align: center;
+    border-bottom: 5px solid #fff;
+    padding-bottom: 20px;
+}
+
+/* CAMARAS CUADRUPLES*/
+
+.f-camaras{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    background: url('./img/fondo-cuatro-camaras.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 93vh;
+    padding-top: 50px;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+
+.f-info{
+    width: 100%;
+    text-align: center;
+}
+
+.f-info .f-call{
+    font-family : 'Open Sans';
+    font-weight: 600;
+    font-size : 22px;
+    letter-spacing : -0.18px;
+    color : #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.f-info .f-title{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size : 41px;
+    line-height : 56px;
+    color : #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 81px;
+}
+
+.f-cellphone{
+    display: flex;
+    flex-flow: column;
+    padding-left: 116px;
+    width: 90%;
+    margin-top: 0;
+}
+
+.f-cellphone .f-camara-item{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 0px;
+    justify-content: center;
+}
+
+.f-cellphone .f-camara-item p{
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 0;
+    min-width: 13em;
+}
+
+.f-cellphone .f-camara-item p span{
+    font-family: 'Open Sans';
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.f-camaras i {
+    border: 1px solid #fff;
+    width: 100%;
+}
+
+.f-cellphone .f-camara-item.first{
+    margin-top: 0;
+    text-align: left;
+    width: 63%;
+}
+
+.f-cellphone .f-camara-item.second{
+    margin-top: 1em;
+    text-align: left;
+    width: 57%;
+}
+
+.f-cellphone .f-camara-item.third{
+    margin-top: 1em;
+    text-align: left;
+    width: 50%;
+}
+
+.f-cellphone .f-camara-item.fourd{
+    margin-top: 1em;
+    text-align: left;
+    width: 45%;
+}
+
+
+/* RESOLUCION */
+
+.f-resolucion{
+    background-color: #000;
+    display: flex;
+    flex-flow: column;
+}
+
+.f-resolucion .flex-row{
+    display: flex;
+}
+
+.f-resolucion .flex-row .flex-item{
+    display: flex;
+    flex-flow: column;
+}
+
+.f-resolucion .f-title{
+    font-family : 'Open Sans';
+    font-size : 41px;
+    line-height : 56px;
+    margin-top: 114px;
+    margin-bottom: 113px;
+    color:#FFF;
+    text-align: center;
+}
+
+.f-resolucion img{
+    width: 100%;
+}
+
+.f-resolucion .flex-row .flex-item.left{
+    padding: 0 26px 42px 74px;
+}
+
+.f-resolucion .flex-row .flex-item.right{
+    padding: 0px 74px 42px 26px;
+}
+
+.f-resolucion .flex-row .flex-item.full{
+    padding: 0px 74px 110px 74px;
+}
+
+.f-resolucion .flex-row .flex-item p{
+    font-family : 'Open Sans';
+    font-weight : bold;
+    font-size : 26px;
+    line-height : 56px;
+    color : #FFCD00;
+    padding-top: 48px;
+    padding-bottom: 30px;
+    margin: 0;
+    border: 4px solid #ffcd00;
+    border-top:none;
+    text-align: center;
+}
+
+.f-resolucion .f-bajada{
+    font-family : 'Open Sans';
+    font-size : 41px;
+    line-height : 56px;
+    color : #FFFFFF;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 97px;
+}
+
+/* COLORES */
+
+.f-redphone{
+    padding: 50px 72px;
+    height: 436px;
+    background-image: url('./img/6Pro_Color_RojoRelampago.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.f-bluephone{
+    padding: 50px 72px;
+    height: 436px;
+    background-image: url('./img/6Pro_Color_AzulRelampago.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.f-redphone p{
+    font-family : 'Open Sans';
+    font-size : 35px;
+    line-height : 41px;
+    color : #FFFFFF;
+    text-align: left;
+}
+
+.f-bluephone p{
+    font-family : 'Open Sans';
+    font-size : 35px;
+    line-height : 41px;
+    color : #FFFFFF;
+    text-align: right;
+}
+
+/* ESTILOS REUSABLES */
+.w-100{
+    width: 100%;
+}
+
+/* DEBUT */
+.f-debut{
+    background: #000;
+    padding-top: 140px;
+    padding-bottom: 81px;
+}
+
+.f-debut img{
+    width: 100%;
+}
+
+.f-debut .f-title{
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size : 41px;
+    line-height : 56px;
+    color : #FFFFFF;
+    text-align: center;
+    margin: 0px 227px;
+}
+
+.f-datos-procesador{
+    display: flex;
+    justify-content: space-around;
+}
+
+.f-datos-procesador p{
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size : 24px;
+    line-height : 37px;
+    letter-spacing : -0.19px;
+    text-align: center;
+    color : #FFFFFF;
+}
+
+.f-datos-procesador span{
+    font-size: 37px;
+}
+
+/* CARGA RAPIDA */
+
+.f-carga-rapida{
+    height: 100vh;
+    background: url('./img/fondo-carga-rapida.png');
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding-left: 63px;
+}
+
+.f-carga-rapida p{
+    font-family : 'Open Sans';
+    font-size : 20px;
+    line-height : 40.95px;
+    color : #FFFFFF;
+    margin: 0;
+}
+
+.f-carga-rapida span{
+    font-family : 'Open Sans';
+    font-size : 41px;
+    line-height : 56px;
+    color : #FFFFFF;
+    margin-top: 28px;
+    margin-bottom: 23px;
+}
+
+/* NOTAS */
+
+.f-notas{
+    padding: 44px 167px 79px 74px;
+    display: flex;
+    flex-flow: column;
+}
+
+.f-notas p, .f-notas li{
+    font-family : 'Open Sans';
+    font-weight: normal;
+    font-size : 20px;
+    line-height : 20px;
+    color : #7F7F7F;
+}
+
+.f-notas p{
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.f-notas li{
+    margin-bottom: 20px;
+}
+
+/* ESPECIFICACIONES */
+
+.f-especificaciones{
+    background: #000;
+    padding: 0 30px 20px 63px;
+    display: flex;
+    flex-flow: column;
+}
+
+.f-especificaciones .f-title{
+    margin-top: 89px;
+    margin-bottom: 79px;
+    font-family : 'Open Sans';
+    font-weight : bold;
+    font-size : 40px;
+    line-height : 56px;
+    text-align: center;
+    color : #FFFFFF;
+}
+
+.f-especificaciones table{
+    color: #fff;
+    width: 100%;
+}
+
+.f-especificaciones table tr{
+    border: 2px solid #fff;
+}
+
+.f-especificaciones table td{
+    font-family : 'Open Sans';
+    font-weight: normal;
+    font-size : 20px;
+    letter-spacing : -0.16px;
+    color : #FFFFFF;
+    width: 50%;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 19px;
+    border-bottom: 2px solid #fff;
+}
+
+.f-especificaciones .last-row td{
+    border-bottom: none;
+}
+
+.f-especificaciones table tr td:first-child{
+    border-right: 2px solid #fff;
+}
+
+/* MOVIL */
+
+@media screen and (max-width: 425px) {
+   /* BANNER */
+
+    .f-banner{
+        display: flex;
+        flex-flow: column;
+    }
+
+    /* ASPECTOS */ 
+
+    .f-specs{
+        background-image: url('./img/sepcs-xs.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 640px;
+        display: flex;
+        align-items: center;
+    }
+
+    .flex-row{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flex-cont{
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+
+    .f-sec-1{
+        padding: 18px 30px 18px 30px;
+    }
+
+    .f-sec-2{
+        padding: 18px 30px 18px 30px;
+    }
+
+    .f-sec-3{
+        padding: 18px 30px 18px 30px;
+    }
+
+    .f-sec-4{
+        padding: 18px 30px 18px 30px;
+    }
+
+    .cont-specs{
+        text-align: left;
+        width: 50%;
+        padding-right: 1em;
+    }
+
+    .cont-specs p{
+        font-family: 'Open Sans';
+        font-weight: normal;
+        font-size : 13px;
+        line-height : 15px;
+        color : #FFFFFF;
+        margin: 0;
+        margin-top: 1em;
+    }
+
+    .cont-specs span{
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size : 13px;
+        line-height : 15px;
+        color : #FFFFFF;
+
+    }
+
+    /* PANTALLA */
+
+    .f-pantalla{
+        background:  #0F0014;
+        padding: 30px 20px 0 19px;
+    }
+
+    .f-pantalla .f-title{
+        font-family : 'Open Sans';
+        font-weight: 600;
+        font-size : 20px;
+        line-height : 24px;
+        color : #FFFFFF;
+        text-align: center;
+    }
+
+    .f-pantalla .f-info{
+        font-family : 'Open Sans';
+        font-weight: normal;
+        font-size : 12px;
+        line-height : 19px;
+        color : #FFFFFF;
+        text-align: center;
+    }
+
+    .f-composicion{
+        display: flex;
+        flex-flow: column;
+        background-image: url('./img/Degrade.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    #f-herz{
+        width: 30%;
+        margin: 2em auto;
+    }
+
+    #f-phone{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .f-datos{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .f-pantalla .f-datos p{
+        font-family : 'Open Sans';
+        font-weight: normal;
+        font-size : 11px;
+        line-height : 12px;
+        color : #FFFFFF;
+        text-align: center;
+        margin-top: 28px;
+        margin-bottom: 10px;
+        width: 34%;
+    }
+
+    /* CAMARA */
+
+    .f-camara{
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-end;
+        height: 72vh;
+        background-image: url('./img/fondo-camara-xs.png');
+        background-repeat: no-repeat;
+        background-position: top left;
+        padding: 0 50px;
+    }
+
+    .f-detail-item:first-child{
+        margin-bottom: 81px;
+        width: 100%;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .f-detail-item{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-bottom: 1em;
+        text-align: right;
+        min-width:auto;
+    }
+
+    .f-info-camara{
+        font-family: 'Open Sans';
+        font-weight: unset;
+        font-size: 20px;
+        line-height: 38px;
+        color: #FFFFFF;
+        margin: 0;
+        min-width: auto;
+    }
+
+    .f-info-camara span{
+        font-size: 39px;
+    }
+
+    .f-camara i {
+        display:none;
+    }
+
+    /* SELFIE */
+
+    .f-selfie{
+        display: flex;
+        flex-flow: column;
+        background-color: #000;
+        padding: 97px 0 111px 0;
+    }
+
+    .f-selfie .f-title{
+        font-family : 'Open Sans';
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 46px;
+        color : #FFFFFF;
+        text-align: center;
+        margin-bottom: 44px;
+    }
+
+    .f-icons{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-flow: column;
+    }
+
+    .f-item{
+        display: flex;
+        flex-flow: column;
+        margin-bottom: 34px;
+    }
+
+    .f-item img{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .f-icons p{
+        font-family : 'Open Sans';
+        text-align: center;
+        font-weight: normal;
+        font-size : 22px;
+        line-height : 85.3px;
+        color : #FFFFFF;
+        margin: 0;
+
+    }
+
+    .selfie{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column;
+    }
+
+    .selfie .f-card{
+        width: 100%;
+    }
+
+    .selfie .f-card.first{
+        padding-right: 0;
+    }
+
+    .selfie .f-card img{
+        width: 100%;
+    }
+
+    .selfie .f-card p{
+        font-family : 'Open Sans';
+        font-weight : bold;
+        font-size : 26px;
+        line-height : 56px;
+        color : #FFD000;
+        text-align: center;
+        margin-bottom: 44px;
+    }
+
+    .selfie .f-card.first p{
+        margin-right: 0;
+        border-right: none;
+    }
+
+    .selfies .f-card{
+        width: 100%;
+    }
+
+    .selfies .f-card img{
+        width: 100%;
+    }
+
+    .selfies .f-card p{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 50px;
+        font-family: 'Open Sans';
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 56px;
+        color: #FFD000;
+        text-align: center;
+        border-bottom: 5px solid #fff;
+        padding-bottom: 20px;
+    }
+
+    /* CAMARAS CUADRUPLES*/
+
+    .f-camaras{
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        background: url('./img/fondo-cuatro-camaras-xs.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: auto;
+        padding-top: 2em;
+        padding-bottom: 0;
+        justify-content: space-between;
+    }
+
+    .f-info{
+        width: 100%;
+        text-align: center;
+    }
+
+    .f-info .f-call{
+        font-family : 'Open Sans';
+        font-weight: 600;
+        font-size: 14px;
+        letter-spacing : -0.18px;
+        color : #FFFFFF;
+        margin-top: 0;
+        margin-bottom: 3px;
+    }
+
+    .f-info .f-title{
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 22px;
+        line-height : 56px;
+        color : #FFFFFF;
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
+
+    .f-cellphone{
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-end;
+        padding-left: 0;
+        width: 100%;
+        margin-top: 0;
+        /* height: 100%; */
+    }
+
+    .f-cellphone .f-camara-item{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        overflow: hidden;
+        margin-bottom: 0px;
+    }
+
+    .f-cellphone .f-camara-item p{
+        font-family: 'Open Sans';
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 22px;
+        color: #fff;
+        margin-bottom: 0;
+        margin-top: 0;
+        min-width: auto;
+    }
+
+    .f-cellphone .f-camara-item p span{
+        font-family: 'Open Sans';
+        font-size: 20px;
+        line-height: 6px;
+        margin-bottom: 5px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    .f-camaras i {
+        display: none;
+    }
+
+    .f-cellphone .f-camara-item.first{
+        margin-top: 0;
+        text-align: right;
+        margin-left: 0;
+        width: 65vw;
+    }
+
+    .f-cellphone .f-camara-item.second{
+        margin-top: 1em;
+        text-align: right;
+        margin-left: 0;
+        width: 55vw;
+    }
+
+    .f-cellphone .f-camara-item.third{
+        margin-top: 1em;
+        margin-bottom: 0em;
+        text-align: right;
+        margin-left: 0;
+        width: 43vw;
+    }
+
+    .f-cellphone .f-camara-item.fourd{
+        margin-top: 1em;
+        margin-bottom: .5em;
+        text-align: right;
+        margin-left: 0;
+        width: 30vw;
+    }
+
+
+    /* RESOLUCION */
+
+    .f-resolucion{
+        background-color: #000;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .f-resolucion .flex-row{
+        display: flex;
+    }
+
+    .f-resolucion .flex-row .flex-item{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .f-resolucion .f-title{
+        font-family : 'Open Sans';
+        font-size: 22px;
+        line-height: 35px;
+        margin-top: 31px;
+        margin-bottom: 54px;
+        color:#FFF;
+        text-align: center;
+    }
+
+    .f-resolucion img{
+        width: 100%;
+    }
+
+    .f-resolucion .flex-row .flex-item.left{
+        padding: 0 10px 20px 20px;
+    }
+
+    .f-resolucion .flex-row .flex-item.right{
+        padding: 0px 20px 20px 10px;
+    }
+
+    .f-resolucion .flex-row .flex-item.full{
+        padding: 0px 20px 20px 20px;
+    }
+
+    .f-resolucion .flex-row .flex-item p{
+        font-family : 'Open Sans';
+        font-weight : bold;
+        font-size: 21px;
+        line-height: 18px;
+        color : #FFCD00;
+        padding-top: 24px;
+        padding-bottom: 15px;
+        margin: 0;
+        border: 4px solid #ffcd00;
+        border-top:none;
+        text-align: center;
+    }
+
+    .f-resolucion .f-bajada{
+        font-family : 'Open Sans';
+        font-size: 20px;
+        line-height: 30px;
+        color : #FFFFFF;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 47px;
+    }
+
+    /* COLORES */
+
+    .f-redphone{
+        padding: 21px 27px;
+        height: 176px;
+        background-image: url('./img/6Pro_Color_RojoRelampago.jpg');
+        background-size: 222%;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    .f-bluephone{
+        padding: 21px 27px;
+        height: 176px;
+        background-image: url('./img/6Pro_Color_AzulRelampago.jpg');
+        background-size: 222%;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .f-redphone p{
+        font-family : 'Open Sans';
+        font-size: 24px;
+        line-height: 32px;
+        color : #FFFFFF;
+        text-align: left;
+        margin: 0;
+    }
+
+    .f-bluephone p{
+        font-family : 'Open Sans';
+        font-size: 24px;
+        line-height: 32px;
+        color : #FFFFFF;
+        text-align: right;
+        margin: 0;
+    }
+
+    /* ESTILOS REUSABLES */
+    .w-100{
+        width: 100%;
+    }
+
+    /* DEBUT */
+    .f-debut{
+        background: #000;
+        padding-top: 70px;
+        padding-bottom: 41px;
+    }
+
+    .f-debut img{
+        width: 100%;
+    }
+
+    .f-debut .f-title{
+        font-family: 'Open Sans';
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 38px;
+        color : #FFFFFF;
+        text-align: center;
+        margin: 0px auto;
+    }
+
+    .f-datos-procesador{
+        display: flex;
+        justify-content: space-around;
+        flex-flow: column;
+    }
+
+    .f-datos-procesador p{
+        font-family: 'Open Sans';
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 26px;
+        letter-spacing : -0.19px;
+        text-align: center;
+        color : #FFFFFF;
+        margin-bottom: 2em;
+    }
+
+    .f-datos-procesador span{
+        font-size: 25px;
+    }
+
+    /* CARGA RAPIDA */
+
+    .f-carga-rapida{
+        height: 44vh;
+        background: url('./img/fondo-carga-rapida.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        padding-left: 33px;
+        padding-top: 2em;
+    }
+
+    .f-carga-rapida p{
+        font-family : 'Open Sans';
+        font-size: 15px;
+        line-height: 30.95px;
+        color : #FFFFFF;
+        margin: 0;
+    }
+
+    .f-carga-rapida span{
+        font-family : 'Open Sans';
+        font-size: 23px;
+        line-height: 32px;
+        color : #FFFFFF;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    /* NOTAS */
+
+    .f-notas{
+        padding: 22px 30px 21px 26px;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .f-notas p, .f-notas li{
+        font-family : 'Open Sans';
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 18px;
+        color : #7F7F7F;
+    }
+
+    .f-notas p{
+        margin-top: 0;
+        margin-bottom: 0px;
+    }
+
+    .f-notas li{
+        margin-bottom: 20px;
+    }
+
+    /* ESPECIFICACIONES */
+
+    .f-especificaciones{
+        background: #000;
+        padding: 0 23px 10px 30px;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .f-especificaciones .f-title{
+        margin-top: 37px;
+        margin-bottom: 14px;
+        font-family : 'Open Sans';
+        font-weight : bold;
+        font-size: 26px;
+        line-height : 56px;
+        text-align: center;
+        color : #FFFFFF;
+    }
+
+    .f-especificaciones table{
+        color: #fff;
+        width: 100%;
+    }
+
+    .f-especificaciones table tr{
+        border: 2px solid #fff;
+    }
+
+    .f-especificaciones table td{
+        font-family : 'Open Sans';
+        font-weight: normal;
+        font-size: 11px;
+        letter-spacing : -0.16px;
+        color : #FFFFFF;
+        width: 50%;
+        padding-bottom: 16px;
+        padding-top: 16px;
+        padding-left: 19px;
+        border-bottom: 2px solid #fff;
+    }
+
+    .f-especificaciones .last-row td{
+        border-bottom: none;
+    }
+
+    .f-especificaciones table tr td:first-child{
+        border-right: 2px solid #fff;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 500px) {
+    /* BANNER */
+ 
+     .f-banner{
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     /* ASPECTOS */ 
+ 
+     .f-specs{
+         background-image: url('./img/sepcs-xs.png');
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         height: 640px;
+         display: flex;
+         align-items: center;
+     }
+ 
+     .flex-row{
+         display: flex;
+         justify-content: space-between;
+     }
+ 
+     .flex-cont{
+         height: 100%;
+         display: flex;
+         flex-flow: column;
+         justify-content: space-between;
+     }
+ 
+     .f-sec-1{
+         padding: 18px 30px 18px 30px;
+     }
+ 
+     .f-sec-2{
+         padding: 18px 30px 18px 30px;
+     }
+ 
+     .f-sec-3{
+         padding: 18px 30px 18px 30px;
+     }
+ 
+     .f-sec-4{
+         padding: 18px 30px 18px 30px;
+     }
+ 
+     .cont-specs{
+         text-align: left;
+         width: 50%;
+         padding-right: 1em;
+     }
+ 
+     .cont-specs p{
+         font-family: 'Open Sans';
+         font-weight: normal;
+         font-size : 13px;
+         line-height : 15px;
+         color : #FFFFFF;
+         margin: 0;
+         margin-top: 1em;
+     }
+ 
+     .cont-specs span{
+         font-family: 'Open Sans';
+         font-weight: 600;
+         font-size : 13px;
+         line-height : 15px;
+         color : #FFFFFF;
+ 
+     }
+ 
+     /* PANTALLA */
+ 
+     .f-pantalla{
+         background:  #0F0014;
+         padding: 30px 20px 0 19px;
+     }
+ 
+     .f-pantalla .f-title{
+         font-family : 'Open Sans';
+         font-weight: 600;
+         font-size : 20px;
+         line-height : 24px;
+         color : #FFFFFF;
+         text-align: center;
+     }
+ 
+     .f-pantalla .f-info{
+         font-family : 'Open Sans';
+         font-weight: normal;
+         font-size : 12px;
+         line-height : 19px;
+         color : #FFFFFF;
+         text-align: center;
+     }
+ 
+     .f-composicion{
+         display: flex;
+         flex-flow: column;
+         background-image: url('./img/Degrade.png');
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: bottom;
+     }
+ 
+     #f-herz{
+         width: 30%;
+         margin: 2em auto;
+     }
+ 
+     #f-phone{
+         width: 90%;
+         margin: 0 auto;
+     }
+ 
+     .f-datos{
+         display: flex;
+         justify-content: space-around;
+     }
+ 
+     .f-pantalla .f-datos p{
+         font-family : 'Open Sans';
+         font-weight: normal;
+         font-size : 11px;
+         line-height : 12px;
+         color : #FFFFFF;
+         text-align: center;
+         margin-top: 28px;
+         margin-bottom: 10px;
+         width: 34%;
+     }
+ 
+     /* CAMARA */
+ 
+     .f-camara{
+        display: flex;
+        flex-flow: column;
+        height: 72vh;
+        background-image: url('./img/fondo-camara-xs.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        justify-content: space-between;
+        padding: 0 50px;
+     }
+ 
+     .f-detail-item:first-child{
+         width: 100%;
+         text-align: right;
+         align-items: flex-start;
+         margin-top: 2em;
+     }
+ 
+     .f-detail-item{
+         display: flex;
+         width: 100%;
+         flex-direction: column;
+         align-items: flex-end;
+         margin-bottom: 1em;
+         text-align: left;
+         min-width:auto;
+     }
+ 
+     .f-info-camara{
+         font-family: 'Open Sans';
+         font-weight: unset;
+         font-size: 20px;
+         line-height: 38px;
+         color: #FFFFFF;
+         margin: 0;
+         min-width: auto;
+     }
+ 
+     .f-info-camara span{
+         font-size: 39px;
+     }
+ 
+     .f-camara i {
+         display:none;
+     }
+ 
+     /* SELFIE */
+ 
+     .f-selfie{
+         display: flex;
+         flex-flow: column;
+         background-color: #000;
+         padding: 97px 0 111px 0;
+     }
+ 
+     .f-selfie .f-title{
+         font-family : 'Open Sans';
+         font-weight: 600;
+         font-size: 27px;
+         line-height: 46px;
+         color : #FFFFFF;
+         text-align: center;
+         margin-bottom: 44px;
+     }
+ 
+     .f-icons{
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+         flex-flow: column;
+     }
+ 
+     .f-item{
+         display: flex;
+         flex-flow: column;
+         margin-bottom: 34px;
+     }
+ 
+     .f-item img{
+         width: 50%;
+         margin: 0 auto;
+     }
+ 
+     .f-icons p{
+         font-family : 'Open Sans';
+         text-align: center;
+         font-weight: normal;
+         font-size : 22px;
+         line-height : 85.3px;
+         color : #FFFFFF;
+         margin: 0;
+ 
+     }
+ 
+     .selfie{
+         display: flex;
+         justify-content: space-between;
+         flex-flow: column;
+     }
+ 
+     .selfie .f-card{
+         width: 100%;
+     }
+ 
+     .selfie .f-card.first{
+         padding-right: 0;
+     }
+ 
+     .selfie .f-card img{
+         width: 100%;
+     }
+ 
+     .selfie .f-card p{
+         font-family : 'Open Sans';
+         font-weight : bold;
+         font-size : 26px;
+         line-height : 56px;
+         color : #FFD000;
+         text-align: center;
+         margin-bottom: 44px;
+     }
+ 
+     .selfie .f-card.first p{
+         margin-right: 0;
+         border-right: none;
+     }
+ 
+     .selfies .f-card{
+         width: 100%;
+     }
+ 
+     .selfies .f-card img{
+         width: 100%;
+     }
+ 
+     .selfies .f-card p{
+         width: 70%;
+         margin: 0 auto;
+         margin-top: 50px;
+         font-family: 'Open Sans';
+         font-size: 26px;
+         font-weight: bold;
+         line-height: 56px;
+         color: #FFD000;
+         text-align: center;
+         border-bottom: 5px solid #fff;
+         padding-bottom: 20px;
+     }
+ 
+     /* CAMARAS CUADRUPLES*/
+ 
+     .f-camaras{
+         display: flex;
+         flex-flow: column;
+         align-items: flex-end;
+         background: url('./img/fondo-cuatro-camaras-sm.png');
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: bottom right;
+         height: auto;
+         padding-top: 19px;
+         padding-bottom: 0;
+     }
+ 
+     .f-info{
+         width: 100%;
+         text-align: center;
+     }
+ 
+     .f-info .f-call{
+         font-family : 'Open Sans';
+         font-weight: 600;
+         font-size: 14px;
+         letter-spacing : -0.18px;
+         color : #FFFFFF;
+         margin-top: 0;
+         margin-bottom: 10px;
+     }
+ 
+     .f-info .f-title{
+         font-family: 'Open Sans';
+         font-weight: 600;
+         font-size: 24px;
+         line-height : 56px;
+         color : #FFFFFF;
+         margin-top: 0;
+         margin-bottom: 14px;
+     }
+ 
+     .f-cellphone{
+         display: flex;
+         flex-flow: column;
+         justify-content: flex-end;
+         padding-left: 0;
+         width: 100%;
+         margin-top: 0;
+         height: auto;
+     }
+ 
+     .f-cellphone .f-camara-item{
+         display: flex;
+         flex-direction: column;
+         align-items: flex-end;
+         overflow: hidden;
+         margin-bottom: 0px;
+     }
+ 
+     .f-cellphone .f-camara-item p{
+         font-family: 'Open Sans';
+         font-weight: normal;
+         font-size: 13px;
+         line-height: 22px;
+         color: #fff;
+         margin-bottom: 0;
+         margin-top: 0;
+         min-width: auto;
+     }
+ 
+     .f-cellphone .f-camara-item p span{
+         font-family: 'Open Sans';
+         font-size: 20px;
+         line-height: 6px;
+         margin-bottom: 5px;
+         font-weight: 400;
+         color: #fff;
+     }
+ 
+     .f-camaras i {
+         display: none;
+     }
+ 
+     .f-cellphone .f-camara-item.first{
+         margin-top: 0;
+         text-align: right;
+         margin-left: 0;
+         width: 61vw;
+     }
+ 
+     .f-cellphone .f-camara-item.second{
+         margin-top: .5em;
+         text-align: right;
+         margin-left: 0;
+         width: 53vw;
+     }
+ 
+     .f-cellphone .f-camara-item.third{
+         margin-top: .5em;
+         margin-bottom: 0em;
+         text-align: right;
+         margin-left: 0;
+         width: 43vw;
+     }
+ 
+     .f-cellphone .f-camara-item.fourd{
+         margin-top: .5em;
+         margin-bottom: 2em;
+         text-align: right;
+         margin-left: 0;
+         width: 33vw;
+     }
+ 
+ 
+     /* RESOLUCION */
+ 
+     .f-resolucion{
+         background-color: #000;
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     .f-resolucion .flex-row{
+         display: flex;
+     }
+ 
+     .f-resolucion .flex-row .flex-item{
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     .f-resolucion .f-title{
+         font-family : 'Open Sans';
+         font-size: 22px;
+         line-height: 35px;
+         margin-top: 31px;
+         margin-bottom: 54px;
+         color:#FFF;
+         text-align: center;
+     }
+ 
+     .f-resolucion img{
+         width: 100%;
+     }
+ 
+     .f-resolucion .flex-row .flex-item.left{
+         padding: 0 10px 20px 20px;
+     }
+ 
+     .f-resolucion .flex-row .flex-item.right{
+         padding: 0px 20px 20px 10px;
+     }
+ 
+     .f-resolucion .flex-row .flex-item.full{
+         padding: 0px 20px 20px 20px;
+     }
+ 
+     .f-resolucion .flex-row .flex-item p{
+         font-family : 'Open Sans';
+         font-weight : bold;
+         font-size: 21px;
+         line-height: 18px;
+         color : #FFCD00;
+         padding-top: 24px;
+         padding-bottom: 15px;
+         margin: 0;
+         border: 4px solid #ffcd00;
+         border-top:none;
+         text-align: center;
+     }
+ 
+     .f-resolucion .f-bajada{
+         font-family : 'Open Sans';
+         font-size: 20px;
+         line-height: 30px;
+         color : #FFFFFF;
+         text-align: center;
+         margin-top: 0;
+         margin-bottom: 47px;
+     }
+ 
+     /* COLORES */
+ 
+     .f-redphone{
+         padding: 21px 27px;
+         height: 176px;
+         background-image: url('./img/6Pro_Color_RojoRelampago.jpg');
+         background-size: 222%;
+         background-repeat: no-repeat;
+         background-position: center;
+         display: flex;
+         flex-flow: column;
+         justify-content: flex-end;
+         align-items: flex-start;
+     }
+ 
+     .f-bluephone{
+         padding: 21px 27px;
+         height: 176px;
+         background-image: url('./img/6Pro_Color_AzulRelampago.jpg');
+         background-size: 222%;
+         background-repeat: no-repeat;
+         background-position: center;
+         display: flex;
+         justify-content: flex-end;
+         align-items: flex-end;
+     }
+ 
+     .f-redphone p{
+         font-family : 'Open Sans';
+         font-size: 24px;
+         line-height: 32px;
+         color : #FFFFFF;
+         text-align: left;
+         margin: 0;
+     }
+ 
+     .f-bluephone p{
+         font-family : 'Open Sans';
+         font-size: 24px;
+         line-height: 32px;
+         color : #FFFFFF;
+         text-align: right;
+         margin: 0;
+     }
+ 
+     /* ESTILOS REUSABLES */
+     .w-100{
+         width: 100%;
+     }
+ 
+     /* DEBUT */
+     .f-debut{
+         background: #000;
+         padding-top: 70px;
+         padding-bottom: 41px;
+     }
+ 
+     .f-debut img{
+         width: 100%;
+     }
+ 
+     .f-debut .f-title{
+         font-family: 'Open Sans';
+         font-weight: normal;
+         font-size: 21px;
+         line-height: 38px;
+         color : #FFFFFF;
+         text-align: center;
+         margin: 0px auto;
+     }
+ 
+     .f-datos-procesador{
+         display: flex;
+         justify-content: space-around;
+         flex-flow: column;
+     }
+ 
+     .f-datos-procesador p{
+         font-family: 'Open Sans';
+         font-weight: normal;
+         font-size: 11px;
+         line-height: 26px;
+         letter-spacing : -0.19px;
+         text-align: center;
+         color : #FFFFFF;
+         margin-bottom: 2em;
+     }
+ 
+     .f-datos-procesador span{
+         font-size: 25px;
+     }
+ 
+     /* CARGA RAPIDA */
+ 
+     .f-carga-rapida{
+        height: 44vh;
+        background: url('./img/fondo-carga-rapida.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        padding-left: 33px;
+        padding-top: 2em;
+     }
+ 
+     .f-carga-rapida p{
+         font-family : 'Open Sans';
+         font-size: 15px;
+         line-height: 30.95px;
+         color : #FFFFFF;
+         margin: 0;
+     }
+ 
+     .f-carga-rapida span{
+         font-family : 'Open Sans';
+         font-size: 23px;
+         line-height: 32px;
+         color : #FFFFFF;
+         margin-top: 0px;
+         margin-bottom: 0px;
+     }
+ 
+     /* NOTAS */
+ 
+     .f-notas{
+         padding: 22px 30px 21px 26px;
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     .f-notas p, .f-notas li{
+         font-family : 'Open Sans';
+         font-weight: normal;
+         font-size: 13px;
+         line-height: 18px;
+         color : #7F7F7F;
+     }
+ 
+     .f-notas p{
+         margin-top: 0;
+         margin-bottom: 0px;
+     }
+ 
+     .f-notas li{
+         margin-bottom: 20px;
+     }
+ 
+     /* ESPECIFICACIONES */
+ 
+     .f-especificaciones{
+         background: #000;
+         padding: 0 23px 10px 30px;
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     .f-especificaciones .f-title{
+         margin-top: 37px;
+         margin-bottom: 14px;
+         font-family : 'Open Sans';
+         font-weight : bold;
+         font-size: 26px;
+         line-height : 56px;
+         text-align: center;
+         color : #FFFFFF;
+     }
+ 
+     .f-especificaciones table{
+         color: #fff;
+         width: 100%;
+     }
+ 
+     .f-especificaciones table tr{
+         border: 2px solid #fff;
+     }
+ 
+     .f-especificaciones table td{
+         font-family : 'Open Sans';
+         font-weight: normal;
+         font-size: 11px;
+         letter-spacing : -0.16px;
+         color : #FFFFFF;
+         width: 50%;
+         padding-bottom: 16px;
+         padding-top: 16px;
+         padding-left: 19px;
+         border-bottom: 2px solid #fff;
+     }
+ 
+     .f-especificaciones .last-row td{
+         border-bottom: none;
+     }
+ 
+     .f-especificaciones table tr td:first-child{
+         border-right: 2px solid #fff;
+     }
+ }
+
+ @media screen and (min-width: 500px) and (max-width: 513px) {
+    /* BANNER */
+ 
+     .f-banner{
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     /* ASPECTOS */ 
+ 
+     .f-specs{
+         background-image: url('./img/sepcs-xs.png');
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         height: 640px;
+         display: flex;
+         align-items: center;
+     }
+ 
+     .flex-row{
+         display: flex;
+         justify-content: space-between;
+     }
+ 
+     .flex-cont{
+         height: 100%;
+         display: flex;
+         flex-flow: column;
+         justify-content: space-between;
+     }
+ 
+     .f-sec-1{
+         padding: 18px 30px 18px 30px;
+     }
+ 
+     .f-sec-2{
+         padding: 18px 30px 18px 30px;
+     }
+ 
+     .f-sec-3{
+         padding: 18px 30px 18px 30px;
+     }
+ 
+     .f-sec-4{
+         padding: 18px 30px 18px 30px;
+     }
+ 
+     .cont-specs{
+         text-align: left;
+         width: 50%;
+         padding-right: 1em;
+     }
+ 
+     .cont-specs p{
+         font-family: 'Open Sans';
+         font-weight: normal;
+         font-size : 13px;
+         line-height : 15px;
+         color : #FFFFFF;
+         margin: 0;
+         margin-top: 1em;
+     }
+ 
+     .cont-specs span{
+         font-family: 'Open Sans';
+         font-weight: 600;
+         font-size : 13px;
+         line-height : 15px;
+         color : #FFFFFF;
+ 
+     }
+ 
+     /* PANTALLA */
+ 
+     .f-pantalla{
+         background:  #0F0014;
+         padding: 30px 20px 0 19px;
+     }
+ 
+     .f-pantalla .f-title{
+         font-family : 'Open Sans';
+         font-weight: 600;
+         font-size : 20px;
+         line-height : 24px;
+         color : #FFFFFF;
+         text-align: center;
+     }
+ 
+     .f-pantalla .f-info{
+         font-family : 'Open Sans';
+         font-weight: normal;
+         font-size : 12px;
+         line-height : 19px;
+         color : #FFFFFF;
+         text-align: center;
+     }
+ 
+     .f-composicion{
+         display: flex;
+         flex-flow: column;
+         background-image: url('./img/Degrade.png');
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: bottom;
+     }
+ 
+     #f-herz{
+         width: 30%;
+         margin: 2em auto;
+     }
+ 
+     #f-phone{
+         width: 90%;
+         margin: 0 auto;
+     }
+ 
+     .f-datos{
+         display: flex;
+         justify-content: space-around;
+     }
+ 
+     .f-pantalla .f-datos p{
+         font-family : 'Open Sans';
+         font-weight: normal;
+         font-size : 11px;
+         line-height : 12px;
+         color : #FFFFFF;
+         text-align: center;
+         margin-top: 28px;
+         margin-bottom: 10px;
+         width: 34%;
+     }
+ 
+     /* CAMARA */
+ 
+     .f-camara{
+        display: flex;
+        flex-flow: column;
+        height: 72vh;
+        background-image: url('./img/fondo-camara-xs.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        justify-content: space-between;
+        padding: 0 50px;
+     }
+ 
+     .f-detail-item:first-child{
+         width: 100%;
+         text-align: right;
+         align-items: flex-start;
+         margin-top: 2em;
+     }
+ 
+     .f-detail-item{
+         display: flex;
+         width: 100%;
+         flex-direction: column;
+         align-items: flex-end;
+         margin-bottom: 1em;
+         text-align: left;
+         min-width:auto;
+     }
+ 
+     .f-info-camara{
+         font-family: 'Open Sans';
+         font-weight: unset;
+         font-size: 20px;
+         line-height: 38px;
+         color: #FFFFFF;
+         margin: 0;
+         min-width: auto;
+     }
+ 
+     .f-info-camara span{
+         font-size: 39px;
+     }
+ 
+     .f-camara i {
+         display:none;
+     }
+ 
+     /* SELFIE */
+ 
+     .f-selfie{
+         display: flex;
+         flex-flow: column;
+         background-color: #000;
+         padding: 97px 0 111px 0;
+     }
+ 
+     .f-selfie .f-title{
+         font-family : 'Open Sans';
+         font-weight: 600;
+         font-size: 27px;
+         line-height: 46px;
+         color : #FFFFFF;
+         text-align: center;
+         margin-bottom: 44px;
+     }
+ 
+     .f-icons{
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+         flex-flow: column;
+     }
+ 
+     .f-item{
+         display: flex;
+         flex-flow: column;
+         margin-bottom: 34px;
+     }
+ 
+     .f-item img{
+         width: 50%;
+         margin: 0 auto;
+     }
+ 
+     .f-icons p{
+         font-family : 'Open Sans';
+         text-align: center;
+         font-weight: normal;
+         font-size : 22px;
+         line-height : 85.3px;
+         color : #FFFFFF;
+         margin: 0;
+ 
+     }
+ 
+     .selfie{
+         display: flex;
+         justify-content: space-between;
+         flex-flow: column;
+     }
+ 
+     .selfie .f-card{
+         width: 100%;
+     }
+ 
+     .selfie .f-card.first{
+         padding-right: 0;
+     }
+ 
+     .selfie .f-card img{
+         width: 100%;
+     }
+ 
+     .selfie .f-card p{
+         font-family : 'Open Sans';
+         font-weight : bold;
+         font-size : 26px;
+         line-height : 56px;
+         color : #FFD000;
+         text-align: center;
+         margin-bottom: 44px;
+     }
+ 
+     .selfie .f-card.first p{
+         margin-right: 0;
+         border-right: none;
+     }
+ 
+     .selfies .f-card{
+         width: 100%;
+     }
+ 
+     .selfies .f-card img{
+         width: 100%;
+     }
+ 
+     .selfies .f-card p{
+         width: 70%;
+         margin: 0 auto;
+         margin-top: 50px;
+         font-family: 'Open Sans';
+         font-size: 26px;
+         font-weight: bold;
+         line-height: 56px;
+         color: #FFD000;
+         text-align: center;
+         border-bottom: 5px solid #fff;
+         padding-bottom: 20px;
+     }
+ 
+     /* CAMARAS CUADRUPLES*/
+ 
+     .f-camaras{
+         display: flex;
+         flex-flow: column;
+         align-items: flex-end;
+         background: url('./img/fondo-cuatro-camaras-xs.png');
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: bottom right;
+         height: 70vh;
+         padding-top: 31px;
+         padding-bottom: 0;
+         justify-content: flex-start;
+     }
+ 
+     .f-info{
+         width: 100%;
+         text-align: center;
+     }
+ 
+     .f-info .f-call{
+         font-family : 'Open Sans';
+         font-weight: 600;
+         font-size: 14px;
+         letter-spacing : -0.18px;
+         color : #FFFFFF;
+         margin-top: 0;
+         margin-bottom: 22px;
+     }
+ 
+     .f-info .f-title{
+         font-family: 'Open Sans';
+         font-weight: 600;
+         font-size: 30px;
+         line-height : 56px;
+         color : #FFFFFF;
+         margin-top: 0;
+         margin-bottom: 13vh;
+     }
+ 
+     .f-cellphone{
+         display: flex;
+         flex-flow: column;
+         justify-content: flex-end;
+         padding-left: 0;
+         width: 100%;
+         margin-top: 0;
+         height: auto;
+     }
+ 
+     .f-cellphone .f-camara-item{
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
+         overflow: hidden;
+         margin-bottom: 0px;
+     }
+ 
+     .f-cellphone .f-camara-item p{
+         font-family: 'Open Sans';
+         font-weight: normal;
+         font-size: 13px;
+         line-height: 22px;
+         color: #fff;
+         margin-bottom: 0;
+         margin-top: 0;
+         min-width: auto;
+     }
+ 
+     .f-cellphone .f-camara-item p span{
+         font-family: 'Open Sans';
+         font-size: 20px;
+         line-height: 6px;
+         margin-bottom: 5px;
+         font-weight: 400;
+         color: #fff;
+     }
+ 
+     .f-camaras i {
+         display: none;
+     }
+ 
+     .f-cellphone .f-camara-item.first{
+         margin-top: 0;
+         text-align: right;
+         margin-left: 32%;
+     }
+ 
+     .f-cellphone .f-camara-item.second{
+         margin-top: .5em;
+         text-align: right;
+         margin-left: 29%;
+     }
+ 
+     .f-cellphone .f-camara-item.third{
+         margin-top: .5em;
+         margin-bottom: 0em;
+         text-align: right;
+         margin-left: 28%;
+     }
+ 
+     .f-cellphone .f-camara-item.fourd{
+         margin-top: .5em;
+         margin-bottom: 2em;
+         text-align: right;
+         margin-left: 16%;
+     }
+ 
+ 
+     /* RESOLUCION */
+ 
+     .f-resolucion{
+         background-color: #000;
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     .f-resolucion .flex-row{
+         display: flex;
+     }
+ 
+     .f-resolucion .flex-row .flex-item{
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     .f-resolucion .f-title{
+         font-family : 'Open Sans';
+         font-size: 22px;
+         line-height: 35px;
+         margin-top: 31px;
+         margin-bottom: 54px;
+         color:#FFF;
+         text-align: center;
+     }
+ 
+     .f-resolucion img{
+         width: 100%;
+     }
+ 
+     .f-resolucion .flex-row .flex-item.left{
+         padding: 0 10px 20px 20px;
+     }
+ 
+     .f-resolucion .flex-row .flex-item.right{
+         padding: 0px 20px 20px 10px;
+     }
+ 
+     .f-resolucion .flex-row .flex-item.full{
+         padding: 0px 20px 20px 20px;
+     }
+ 
+     .f-resolucion .flex-row .flex-item p{
+         font-family : 'Open Sans';
+         font-weight : bold;
+         font-size: 21px;
+         line-height: 18px;
+         color : #FFCD00;
+         padding-top: 24px;
+         padding-bottom: 15px;
+         margin: 0;
+         border: 4px solid #ffcd00;
+         border-top:none;
+         text-align: center;
+     }
+ 
+     .f-resolucion .f-bajada{
+         font-family : 'Open Sans';
+         font-size: 20px;
+         line-height: 30px;
+         color : #FFFFFF;
+         text-align: center;
+         margin-top: 0;
+         margin-bottom: 47px;
+     }
+ 
+     /* COLORES */
+ 
+     .f-redphone{
+         padding: 21px 27px;
+         height: 176px;
+         background-image: url('./img/6Pro_Color_RojoRelampago.jpg');
+         background-size: 222%;
+         background-repeat: no-repeat;
+         background-position: center;
+         display: flex;
+         flex-flow: column;
+         justify-content: flex-end;
+         align-items: flex-start;
+     }
+ 
+     .f-bluephone{
+         padding: 21px 27px;
+         height: 176px;
+         background-image: url('./img/6Pro_Color_AzulRelampago.jpg');
+         background-size: 222%;
+         background-repeat: no-repeat;
+         background-position: center;
+         display: flex;
+         justify-content: flex-end;
+         align-items: flex-end;
+     }
+ 
+     .f-redphone p{
+         font-family : 'Open Sans';
+         font-size: 24px;
+         line-height: 32px;
+         color : #FFFFFF;
+         text-align: left;
+         margin: 0;
+     }
+ 
+     .f-bluephone p{
+         font-family : 'Open Sans';
+         font-size: 24px;
+         line-height: 32px;
+         color : #FFFFFF;
+         text-align: right;
+         margin: 0;
+     }
+ 
+     /* ESTILOS REUSABLES */
+     .w-100{
+         width: 100%;
+     }
+ 
+     /* DEBUT */
+     .f-debut{
+         background: #000;
+         padding-top: 70px;
+         padding-bottom: 41px;
+     }
+ 
+     .f-debut img{
+         width: 100%;
+     }
+ 
+     .f-debut .f-title{
+         font-family: 'Open Sans';
+         font-weight: normal;
+         font-size: 21px;
+         line-height: 38px;
+         color : #FFFFFF;
+         text-align: center;
+         margin: 0px auto;
+     }
+ 
+     .f-datos-procesador{
+         display: flex;
+         justify-content: space-around;
+         flex-flow: column;
+     }
+ 
+     .f-datos-procesador p{
+         font-family: 'Open Sans';
+         font-weight: normal;
+         font-size: 11px;
+         line-height: 26px;
+         letter-spacing : -0.19px;
+         text-align: center;
+         color : #FFFFFF;
+         margin-bottom: 2em;
+     }
+ 
+     .f-datos-procesador span{
+         font-size: 25px;
+     }
+ 
+     /* CARGA RAPIDA */
+ 
+     .f-carga-rapida{
+        height: 44vh;
+        background: url('./img/fondo-carga-rapida.png');
+        background-size: cover;
+        background-position: right;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        padding-left: 33px;
+        padding-top: 2em;
+     }
+ 
+     .f-carga-rapida p{
+         font-family : 'Open Sans';
+         font-size: 15px;
+         line-height: 30.95px;
+         color : #FFFFFF;
+         margin: 0;
+     }
+ 
+     .f-carga-rapida span{
+         font-family : 'Open Sans';
+         font-size: 23px;
+         line-height: 32px;
+         color : #FFFFFF;
+         margin-top: 0px;
+         margin-bottom: 0px;
+     }
+ 
+     /* NOTAS */
+ 
+     .f-notas{
+         padding: 22px 30px 21px 26px;
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     .f-notas p, .f-notas li{
+         font-family : 'Open Sans';
+         font-weight: normal;
+         font-size: 13px;
+         line-height: 18px;
+         color : #7F7F7F;
+     }
+ 
+     .f-notas p{
+         margin-top: 0;
+         margin-bottom: 0px;
+     }
+ 
+     .f-notas li{
+         margin-bottom: 20px;
+     }
+ 
+     /* ESPECIFICACIONES */
+ 
+     .f-especificaciones{
+         background: #000;
+         padding: 0 23px 10px 30px;
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     .f-especificaciones .f-title{
+         margin-top: 37px;
+         margin-bottom: 14px;
+         font-family : 'Open Sans';
+         font-weight : bold;
+         font-size: 26px;
+         line-height : 56px;
+         text-align: center;
+         color : #FFFFFF;
+     }
+ 
+     .f-especificaciones table{
+         color: #fff;
+         width: 100%;
+     }
+ 
+     .f-especificaciones table tr{
+         border: 2px solid #fff;
+     }
+ 
+     .f-especificaciones table td{
+         font-family : 'Open Sans';
+         font-weight: normal;
+         font-size: 11px;
+         letter-spacing : -0.16px;
+         color : #FFFFFF;
+         width: 50%;
+         padding-bottom: 16px;
+         padding-top: 16px;
+         padding-left: 19px;
+         border-bottom: 2px solid #fff;
+     }
+ 
+     .f-especificaciones .last-row td{
+         border-bottom: none;
+     }
+ 
+     .f-especificaciones table tr td:first-child{
+         border-right: 2px solid #fff;
+     }
+ }
+
+  @media screen and (min-width: 513px) and (max-width: 520px) {
+    /* BANNER */
+ 
+     .f-banner{
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     /* ASPECTOS */ 
+ 
+     .f-specs{
+         background-image: url('./img/sepcs-xs.png');
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         height: 640px;
+         display: flex;
+         align-items: center;
+     }
+ 
+     .flex-row{
+         display: flex;
+         justify-content: space-between;
+     }
+ 
+     .flex-cont{
+         height: 100%;
+         display: flex;
+         flex-flow: column;
+         justify-content: space-between;
+     }
+ 
+     .f-sec-1{
+         padding: 18px 30px 18px 30px;
+     }
+ 
+     .f-sec-2{
+         padding: 18px 30px 18px 30px;
+     }
+ 
+     .f-sec-3{
+         padding: 18px 30px 18px 30px;
+     }
+ 
+     .f-sec-4{
+         padding: 18px 30px 18px 30px;
+     }
+ 
+     .cont-specs{
+         text-align: left;
+         width: 50%;
+         padding-right: 1em;
+     }
+ 
+     .cont-specs p{
+         font-family: 'Open Sans';
+         font-weight: normal;
+         font-size : 13px;
+         line-height : 15px;
+         color : #FFFFFF;
+         margin: 0;
+         margin-top: 1em;
+     }
+ 
+     .cont-specs span{
+         font-family: 'Open Sans';
+         font-weight: 600;
+         font-size : 13px;
+         line-height : 15px;
+         color : #FFFFFF;
+ 
+     }
+ 
+     /* PANTALLA */
+ 
+     .f-pantalla{
+         background:  #0F0014;
+         padding: 30px 20px 0 19px;
+     }
+ 
+     .f-pantalla .f-title{
+         font-family : 'Open Sans';
+         font-weight: 600;
+         font-size : 20px;
+         line-height : 24px;
+         color : #FFFFFF;
+         text-align: center;
+     }
+ 
+     .f-pantalla .f-info{
+         font-family : 'Open Sans';
+         font-weight: normal;
+         font-size : 12px;
+         line-height : 19px;
+         color : #FFFFFF;
+         text-align: center;
+     }
+ 
+     .f-composicion{
+         display: flex;
+         flex-flow: column;
+         background-image: url('./img/Degrade.png');
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: bottom;
+     }
+ 
+     #f-herz{
+         width: 30%;
+         margin: 2em auto;
+     }
+ 
+     #f-phone{
+         width: 90%;
+         margin: 0 auto;
+     }
+ 
+     .f-datos{
+         display: flex;
+         justify-content: space-around;
+     }
+ 
+     .f-pantalla .f-datos p{
+         font-family : 'Open Sans';
+         font-weight: normal;
+         font-size : 11px;
+         line-height : 12px;
+         color : #FFFFFF;
+         text-align: center;
+         margin-top: 28px;
+         margin-bottom: 10px;
+         width: 34%;
+     }
+ 
+     /* CAMARA */
+ 
+     .f-camara{
+        display: flex;
+        flex-flow: column;
+        height: 72vh;
+        background-image: url('./img/fondo-camara-xs.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        justify-content: space-between;
+        padding: 0 50px;
+     }
+ 
+     .f-detail-item:first-child{
+         width: 100%;
+         text-align: right;
+         align-items: flex-start;
+         margin-top: 2em;
+     }
+ 
+     .f-detail-item{
+         display: flex;
+         width: 100%;
+         flex-direction: column;
+         align-items: flex-end;
+         margin-bottom: 1em;
+         text-align: left;
+         min-width:auto;
+     }
+ 
+     .f-info-camara{
+         font-family: 'Open Sans';
+         font-weight: unset;
+         font-size: 20px;
+         line-height: 38px;
+         color: #FFFFFF;
+         margin: 0;
+         min-width: auto;
+     }
+ 
+     .f-info-camara span{
+         font-size: 39px;
+     }
+ 
+     .f-camara i {
+         display:none;
+     }
+ 
+     /* SELFIE */
+ 
+     .f-selfie{
+         display: flex;
+         flex-flow: column;
+         background-color: #000;
+         padding: 97px 0 111px 0;
+     }
+ 
+     .f-selfie .f-title{
+         font-family : 'Open Sans';
+         font-weight: 600;
+         font-size: 27px;
+         line-height: 46px;
+         color : #FFFFFF;
+         text-align: center;
+         margin-bottom: 44px;
+     }
+ 
+     .f-icons{
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+         flex-flow: column;
+     }
+ 
+     .f-item{
+         display: flex;
+         flex-flow: column;
+         margin-bottom: 34px;
+     }
+ 
+     .f-item img{
+         width: 50%;
+         margin: 0 auto;
+     }
+ 
+     .f-icons p{
+         font-family : 'Open Sans';
+         text-align: center;
+         font-weight: normal;
+         font-size : 22px;
+         line-height : 85.3px;
+         color : #FFFFFF;
+         margin: 0;
+ 
+     }
+ 
+     .selfie{
+         display: flex;
+         justify-content: space-between;
+         flex-flow: column;
+     }
+ 
+     .selfie .f-card{
+         width: 100%;
+     }
+ 
+     .selfie .f-card.first{
+         padding-right: 0;
+     }
+ 
+     .selfie .f-card img{
+         width: 100%;
+     }
+ 
+     .selfie .f-card p{
+         font-family : 'Open Sans';
+         font-weight : bold;
+         font-size : 26px;
+         line-height : 56px;
+         color : #FFD000;
+         text-align: center;
+         margin-bottom: 44px;
+     }
+ 
+     .selfie .f-card.first p{
+         margin-right: 0;
+         border-right: none;
+     }
+ 
+     .selfies .f-card{
+         width: 100%;
+     }
+ 
+     .selfies .f-card img{
+         width: 100%;
+     }
+ 
+     .selfies .f-card p{
+         width: 70%;
+         margin: 0 auto;
+         margin-top: 50px;
+         font-family: 'Open Sans';
+         font-size: 26px;
+         font-weight: bold;
+         line-height: 56px;
+         color: #FFD000;
+         text-align: center;
+         border-bottom: 5px solid #fff;
+         padding-bottom: 20px;
+     }
+ 
+     /* CAMARAS CUADRUPLES*/
+ 
+     .f-camaras{
+         display: flex;
+         flex-flow: column;
+         align-items: flex-end;
+         background: url('./img/fondo-cuatro-camaras.png');
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: bottom right;
+         height: 66vh;
+         padding-top: 50px;
+         padding-bottom: 0;
+         justify-content: flex-start;
+     }
+ 
+     .f-info{
+         width: 100%;
+         text-align: center;
+     }
+ 
+     .f-info .f-call{
+         font-family : 'Open Sans';
+         font-weight: 600;
+         font-size: 14px;
+         letter-spacing : -0.18px;
+         color : #FFFFFF;
+         margin-top: 0;
+         margin-bottom: 22px;
+     }
+ 
+     .f-info .f-title{
+         font-family: 'Open Sans';
+         font-weight: 600;
+         font-size: 30px;
+         line-height : 56px;
+         color : #FFFFFF;
+         margin-top: 0;
+         margin-bottom: 2em;
+     }
+ 
+     .f-cellphone{
+         display: flex;
+         flex-flow: column;
+         justify-content: flex-end;
+         padding-left: 0;
+         width: 100%;
+         margin-top: 0;
+         height: auto;
+     }
+ 
+     .f-cellphone .f-camara-item{
+         display: flex;
+         flex-direction: column;
+         align-items: flex-end;
+         overflow: hidden;
+         margin-bottom: 0px;
+     }
+ 
+     .f-cellphone .f-camara-item p{
+         font-family: 'Open Sans';
+         font-weight: normal;
+         font-size: 13px;
+         line-height: 22px;
+         color: #fff;
+         margin-bottom: 0;
+         margin-top: 0;
+         min-width: auto;
+     }
+ 
+     .f-cellphone .f-camara-item p span{
+         font-family: 'Open Sans';
+         font-size: 20px;
+         line-height: 6px;
+         margin-bottom: 5px;
+         font-weight: 400;
+         color: #fff;
+     }
+ 
+     .f-camaras i {
+         display: none;
+     }
+ 
+     .f-cellphone .f-camara-item.first{
+         margin-top: 0;
+         text-align: right;
+         margin-left: 0;
+         width: 52%;
+     }
+ 
+     .f-cellphone .f-camara-item.second{
+         margin-top: 0.5em;
+         text-align: right;
+         margin-left: 0;
+         width: 41%;
+     }
+ 
+     .f-cellphone .f-camara-item.third{
+         margin-top: 0.5em;
+         margin-bottom: 0em;
+         text-align: right;
+         margin-left: 0;
+         width: 33%;
+     }
+ 
+     .f-cellphone .f-camara-item.fourd{
+         margin-top: 0.5em;
+         margin-bottom: 2em;
+         text-align: right;
+         margin-left: 0;
+         width: 24%;
+     }
+ 
+ 
+     /* RESOLUCION */
+ 
+     .f-resolucion{
+         background-color: #000;
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     .f-resolucion .flex-row{
+         display: flex;
+     }
+ 
+     .f-resolucion .flex-row .flex-item{
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     .f-resolucion .f-title{
+         font-family : 'Open Sans';
+         font-size: 22px;
+         line-height: 35px;
+         margin-top: 31px;
+         margin-bottom: 54px;
+         color:#FFF;
+         text-align: center;
+     }
+ 
+     .f-resolucion img{
+         width: 100%;
+     }
+ 
+     .f-resolucion .flex-row .flex-item.left{
+         padding: 0 10px 20px 20px;
+     }
+ 
+     .f-resolucion .flex-row .flex-item.right{
+         padding: 0px 20px 20px 10px;
+     }
+ 
+     .f-resolucion .flex-row .flex-item.full{
+         padding: 0px 20px 20px 20px;
+     }
+ 
+     .f-resolucion .flex-row .flex-item p{
+         font-family : 'Open Sans';
+         font-weight : bold;
+         font-size: 21px;
+         line-height: 18px;
+         color : #FFCD00;
+         padding-top: 24px;
+         padding-bottom: 15px;
+         margin: 0;
+         border: 4px solid #ffcd00;
+         border-top:none;
+         text-align: center;
+     }
+ 
+     .f-resolucion .f-bajada{
+         font-family : 'Open Sans';
+         font-size: 20px;
+         line-height: 30px;
+         color : #FFFFFF;
+         text-align: center;
+         margin-top: 0;
+         margin-bottom: 47px;
+     }
+ 
+     /* COLORES */
+ 
+     .f-redphone{
+         padding: 21px 27px;
+         height: 176px;
+         background-image: url('./img/6Pro_Color_RojoRelampago.jpg');
+         background-size: 222%;
+         background-repeat: no-repeat;
+         background-position: center;
+         display: flex;
+         flex-flow: column;
+         justify-content: flex-end;
+         align-items: flex-start;
+     }
+ 
+     .f-bluephone{
+         padding: 21px 27px;
+         height: 176px;
+         background-image: url('./img/6Pro_Color_AzulRelampago.jpg');
+         background-size: 222%;
+         background-repeat: no-repeat;
+         background-position: center;
+         display: flex;
+         justify-content: flex-end;
+         align-items: flex-end;
+     }
+ 
+     .f-redphone p{
+         font-family : 'Open Sans';
+         font-size: 24px;
+         line-height: 32px;
+         color : #FFFFFF;
+         text-align: left;
+         margin: 0;
+     }
+ 
+     .f-bluephone p{
+         font-family : 'Open Sans';
+         font-size: 24px;
+         line-height: 32px;
+         color : #FFFFFF;
+         text-align: right;
+         margin: 0;
+     }
+ 
+     /* ESTILOS REUSABLES */
+     .w-100{
+         width: 100%;
+     }
+ 
+     /* DEBUT */
+     .f-debut{
+         background: #000;
+         padding-top: 70px;
+         padding-bottom: 41px;
+     }
+ 
+     .f-debut img{
+         width: 100%;
+     }
+ 
+     .f-debut .f-title{
+         font-family: 'Open Sans';
+         font-weight: normal;
+         font-size: 21px;
+         line-height: 38px;
+         color : #FFFFFF;
+         text-align: center;
+         margin: 0px auto;
+     }
+ 
+     .f-datos-procesador{
+         display: flex;
+         justify-content: space-around;
+         flex-flow: column;
+     }
+ 
+     .f-datos-procesador p{
+         font-family: 'Open Sans';
+         font-weight: normal;
+         font-size: 11px;
+         line-height: 26px;
+         letter-spacing : -0.19px;
+         text-align: center;
+         color : #FFFFFF;
+         margin-bottom: 2em;
+     }
+ 
+     .f-datos-procesador span{
+         font-size: 25px;
+     }
+ 
+     /* CARGA RAPIDA */
+ 
+     .f-carga-rapida{
+        height: 44vh;
+        background: url('./img/fondo-carga-rapida.png');
+        background-size: cover;
+        background-position: right;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        padding-left: 33px;
+        padding-top: 2em;
+     }
+ 
+     .f-carga-rapida p{
+         font-family : 'Open Sans';
+         font-size: 15px;
+         line-height: 30.95px;
+         color : #FFFFFF;
+         margin: 0;
+     }
+ 
+     .f-carga-rapida span{
+         font-family : 'Open Sans';
+         font-size: 23px;
+         line-height: 32px;
+         color : #FFFFFF;
+         margin-top: 0px;
+         margin-bottom: 0px;
+     }
+ 
+     /* NOTAS */
+ 
+     .f-notas{
+         padding: 22px 30px 21px 26px;
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     .f-notas p, .f-notas li{
+         font-family : 'Open Sans';
+         font-weight: normal;
+         font-size: 13px;
+         line-height: 18px;
+         color : #7F7F7F;
+     }
+ 
+     .f-notas p{
+         margin-top: 0;
+         margin-bottom: 0px;
+     }
+ 
+     .f-notas li{
+         margin-bottom: 20px;
+     }
+ 
+     /* ESPECIFICACIONES */
+ 
+     .f-especificaciones{
+         background: #000;
+         padding: 0 23px 10px 30px;
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     .f-especificaciones .f-title{
+         margin-top: 37px;
+         margin-bottom: 14px;
+         font-family : 'Open Sans';
+         font-weight : bold;
+         font-size: 26px;
+         line-height : 56px;
+         text-align: center;
+         color : #FFFFFF;
+     }
+ 
+     .f-especificaciones table{
+         color: #fff;
+         width: 100%;
+     }
+ 
+     .f-especificaciones table tr{
+         border: 2px solid #fff;
+     }
+ 
+     .f-especificaciones table td{
+         font-family : 'Open Sans';
+         font-weight: normal;
+         font-size: 11px;
+         letter-spacing : -0.16px;
+         color : #FFFFFF;
+         width: 50%;
+         padding-bottom: 16px;
+         padding-top: 16px;
+         padding-left: 19px;
+         border-bottom: 2px solid #fff;
+     }
+ 
+     .f-especificaciones .last-row td{
+         border-bottom: none;
+     }
+ 
+     .f-especificaciones table tr td:first-child{
+         border-right: 2px solid #fff;
+     }
+ }
+
+ @media screen and (min-width: 520px) and (max-width: 720px) {
+    /* BANNER */
+ 
+     .f-banner{
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     /* ASPECTOS */ 
+ 
+     .f-specs{
+         background-image: url('./img/sepcs-xs.png');
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         height: 640px;
+         display: flex;
+         align-items: center;
+     }
+ 
+     .flex-row{
+         display: flex;
+         justify-content: space-between;
+     }
+ 
+     .flex-cont{
+         height: 100%;
+         display: flex;
+         flex-flow: column;
+         justify-content: space-between;
+     }
+ 
+     .f-sec-1{
+         padding: 18px 30px 18px 30px;
+     }
+ 
+     .f-sec-2{
+         padding: 18px 30px 18px 30px;
+     }
+ 
+     .f-sec-3{
+         padding: 18px 30px 18px 30px;
+     }
+ 
+     .f-sec-4{
+         padding: 18px 30px 18px 30px;
+     }
+ 
+     .cont-specs{
+         text-align: left;
+         width: 50%;
+         padding-right: 1em;
+     }
+ 
+     .cont-specs p{
+         font-family: 'Open Sans';
+         font-weight: normal;
+         font-size : 13px;
+         line-height : 15px;
+         color : #FFFFFF;
+         margin: 0;
+         margin-top: 1em;
+     }
+ 
+     .cont-specs span{
+         font-family: 'Open Sans';
+         font-weight: 600;
+         font-size : 13px;
+         line-height : 15px;
+         color : #FFFFFF;
+ 
+     }
+ 
+     /* PANTALLA */
+ 
+     .f-pantalla{
+         background:  #0F0014;
+         padding: 30px 20px 0 19px;
+     }
+ 
+     .f-pantalla .f-title{
+         font-family : 'Open Sans';
+         font-weight: 600;
+         font-size : 20px;
+         line-height : 24px;
+         color : #FFFFFF;
+         text-align: center;
+     }
+ 
+     .f-pantalla .f-info{
+         font-family : 'Open Sans';
+         font-weight: normal;
+         font-size : 12px;
+         line-height : 19px;
+         color : #FFFFFF;
+         text-align: center;
+     }
+ 
+     .f-composicion{
+         display: flex;
+         flex-flow: column;
+         background-image: url('./img/Degrade.png');
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: bottom;
+     }
+ 
+     #f-herz{
+         width: 30%;
+         margin: 2em auto;
+     }
+ 
+     #f-phone{
+         width: 90%;
+         margin: 0 auto;
+     }
+ 
+     .f-datos{
+         display: flex;
+         justify-content: space-around;
+     }
+ 
+     .f-pantalla .f-datos p{
+         font-family : 'Open Sans';
+         font-weight: normal;
+         font-size : 11px;
+         line-height : 12px;
+         color : #FFFFFF;
+         text-align: center;
+         margin-top: 28px;
+         margin-bottom: 10px;
+         width: 34%;
+     }
+ 
+     /* CAMARA */
+ 
+     .f-camara{
+        display: flex;
+        flex-flow: column;
+        height: 72vh;
+        background-image: url('./img/fondo-camara-xs.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        justify-content: space-between;
+        padding: 0 50px;
+     }
+ 
+     .f-detail-item:first-child{
+         width: 100%;
+         text-align: right;
+         align-items: flex-start;
+         margin-top: 2em;
+     }
+ 
+     .f-detail-item{
+         display: flex;
+         width: 100%;
+         flex-direction: column;
+         align-items: flex-end;
+         margin-bottom: 1em;
+         text-align: left;
+         min-width:auto;
+     }
+ 
+     .f-info-camara{
+         font-family: 'Open Sans';
+         font-weight: unset;
+         font-size: 20px;
+         line-height: 38px;
+         color: #FFFFFF;
+         margin: 0;
+         min-width: auto;
+     }
+ 
+     .f-info-camara span{
+         font-size: 39px;
+     }
+ 
+     .f-camara i {
+         display:none;
+     }
+ 
+     /* SELFIE */
+ 
+     .f-selfie{
+         display: flex;
+         flex-flow: column;
+         background-color: #000;
+         padding: 97px 0 111px 0;
+     }
+ 
+     .f-selfie .f-title{
+         font-family : 'Open Sans';
+         font-weight: 600;
+         font-size: 27px;
+         line-height: 46px;
+         color : #FFFFFF;
+         text-align: center;
+         margin-bottom: 44px;
+     }
+ 
+     .f-icons{
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+         flex-flow: column;
+     }
+ 
+     .f-item{
+         display: flex;
+         flex-flow: column;
+         margin-bottom: 34px;
+     }
+ 
+     .f-item img{
+         width: 50%;
+         margin: 0 auto;
+     }
+ 
+     .f-icons p{
+         font-family : 'Open Sans';
+         text-align: center;
+         font-weight: normal;
+         font-size : 22px;
+         line-height : 85.3px;
+         color : #FFFFFF;
+         margin: 0;
+ 
+     }
+ 
+     .selfie{
+         display: flex;
+         justify-content: space-between;
+         flex-flow: column;
+     }
+ 
+     .selfie .f-card{
+         width: 100%;
+     }
+ 
+     .selfie .f-card.first{
+         padding-right: 0;
+     }
+ 
+     .selfie .f-card img{
+         width: 100%;
+     }
+ 
+     .selfie .f-card p{
+         font-family : 'Open Sans';
+         font-weight : bold;
+         font-size : 26px;
+         line-height : 56px;
+         color : #FFD000;
+         text-align: center;
+         margin-bottom: 44px;
+     }
+ 
+     .selfie .f-card.first p{
+         margin-right: 0;
+         border-right: none;
+     }
+ 
+     .selfies .f-card{
+         width: 100%;
+     }
+ 
+     .selfies .f-card img{
+         width: 100%;
+     }
+ 
+     .selfies .f-card p{
+         width: 70%;
+         margin: 0 auto;
+         margin-top: 50px;
+         font-family: 'Open Sans';
+         font-size: 26px;
+         font-weight: bold;
+         line-height: 56px;
+         color: #FFD000;
+         text-align: center;
+         border-bottom: 5px solid #fff;
+         padding-bottom: 20px;
+     }
+ 
+     /* CAMARAS CUADRUPLES*/
+ 
+     .f-camaras{
+         display: flex;
+         flex-flow: column;
+         align-items: flex-end;
+         background: url('./img/fondo-cuatro-camaras.png');
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: bottom;
+         height: auto;
+         padding-top: 17px;
+         padding-bottom: 0;
+         justify-content: flex-start;
+     }
+ 
+     .f-info{
+         width: 100%;
+         text-align: center;
+     }
+ 
+     .f-info .f-call{
+         font-family : 'Open Sans';
+         font-weight: 600;
+         font-size: 14px;
+         letter-spacing : -0.18px;
+         color : #FFFFFF;
+         margin-top: 0;
+         margin-bottom: 22px;
+     }
+ 
+     .f-info .f-title{
+         font-family: 'Open Sans';
+         font-weight: 600;
+         font-size: 30px;
+         line-height : 56px;
+         color : #FFFFFF;
+         margin-top: 0;
+         margin-bottom: 2em;
+     }
+ 
+     .f-cellphone{
+         display: flex;
+         flex-flow: column;
+         justify-content: flex-end;
+         padding-left: 0;
+         width: 100%;
+         margin-top: 0;
+         height: auto;
+     }
+ 
+     .f-cellphone .f-camara-item{
+         display: flex;
+         flex-direction: column;
+         align-items: flex-end;
+         overflow: hidden;
+         margin-bottom: 0px;
+     }
+ 
+     .f-cellphone .f-camara-item p{
+         font-family: 'Open Sans';
+         font-weight: normal;
+         font-size: 13px;
+         line-height: 22px;
+         color: #fff;
+         margin-bottom: 0;
+         margin-top: 0;
+         min-width: auto;
+     }
+ 
+     .f-cellphone .f-camara-item p span{
+         font-family: 'Open Sans';
+         font-size: 20px;
+         line-height: 6px;
+         margin-bottom: 5px;
+         font-weight: 400;
+         color: #fff;
+     }
+ 
+     .f-camaras i {
+         display: none;
+     }
+ 
+     .f-cellphone .f-camara-item.first{
+         margin-top: 0;
+         text-align: right;
+         margin-left: 0;
+         width: 56vw;
+     }
+ 
+     .f-cellphone .f-camara-item.second{
+         margin-top: 0.5em;
+         text-align: right;
+         margin-left: 0;
+         width: 49vw;
+     }
+ 
+     .f-cellphone .f-camara-item.third{
+         margin-top: 0.5em;
+         margin-bottom: 0em;
+         text-align: right;
+         margin-left: 0;
+         width: 41vw;
+     }
+ 
+     .f-cellphone .f-camara-item.fourd{
+         margin-top: 0.5em;
+         margin-bottom: 1em;
+         text-align: right;
+         margin-left: 0;
+         width: 32vw;
+     }
+ 
+ 
+     /* RESOLUCION */
+ 
+     .f-resolucion{
+         background-color: #000;
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     .f-resolucion .flex-row{
+         display: flex;
+     }
+ 
+     .f-resolucion .flex-row .flex-item{
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     .f-resolucion .f-title{
+         font-family : 'Open Sans';
+         font-size: 22px;
+         line-height: 35px;
+         margin-top: 31px;
+         margin-bottom: 54px;
+         color:#FFF;
+         text-align: center;
+     }
+ 
+     .f-resolucion img{
+         width: 100%;
+     }
+ 
+     .f-resolucion .flex-row .flex-item.left{
+         padding: 0 10px 20px 20px;
+     }
+ 
+     .f-resolucion .flex-row .flex-item.right{
+         padding: 0px 20px 20px 10px;
+     }
+ 
+     .f-resolucion .flex-row .flex-item.full{
+         padding: 0px 20px 20px 20px;
+     }
+ 
+     .f-resolucion .flex-row .flex-item p{
+         font-family : 'Open Sans';
+         font-weight : bold;
+         font-size: 21px;
+         line-height: 18px;
+         color : #FFCD00;
+         padding-top: 24px;
+         padding-bottom: 15px;
+         margin: 0;
+         border: 4px solid #ffcd00;
+         border-top:none;
+         text-align: center;
+     }
+ 
+     .f-resolucion .f-bajada{
+         font-family : 'Open Sans';
+         font-size: 20px;
+         line-height: 30px;
+         color : #FFFFFF;
+         text-align: center;
+         margin-top: 0;
+         margin-bottom: 47px;
+     }
+ 
+     /* COLORES */
+ 
+     .f-redphone{
+         padding: 21px 27px;
+         height: 176px;
+         background-image: url('./img/6Pro_Color_RojoRelampago.jpg');
+         background-size: 222%;
+         background-repeat: no-repeat;
+         background-position: center;
+         display: flex;
+         flex-flow: column;
+         justify-content: flex-end;
+         align-items: flex-start;
+     }
+ 
+     .f-bluephone{
+         padding: 21px 27px;
+         height: 176px;
+         background-image: url('./img/6Pro_Color_AzulRelampago.jpg');
+         background-size: 222%;
+         background-repeat: no-repeat;
+         background-position: center;
+         display: flex;
+         justify-content: flex-end;
+         align-items: flex-end;
+     }
+ 
+     .f-redphone p{
+         font-family : 'Open Sans';
+         font-size: 24px;
+         line-height: 32px;
+         color : #FFFFFF;
+         text-align: left;
+         margin: 0;
+     }
+ 
+     .f-bluephone p{
+         font-family : 'Open Sans';
+         font-size: 24px;
+         line-height: 32px;
+         color : #FFFFFF;
+         text-align: right;
+         margin: 0;
+     }
+ 
+     /* ESTILOS REUSABLES */
+     .w-100{
+         width: 100%;
+     }
+ 
+     /* DEBUT */
+     .f-debut{
+         background: #000;
+         padding-top: 70px;
+         padding-bottom: 41px;
+     }
+ 
+     .f-debut img{
+         width: 100%;
+     }
+ 
+     .f-debut .f-title{
+         font-family: 'Open Sans';
+         font-weight: normal;
+         font-size: 21px;
+         line-height: 38px;
+         color : #FFFFFF;
+         text-align: center;
+         margin: 0px auto;
+     }
+ 
+     .f-datos-procesador{
+         display: flex;
+         justify-content: space-around;
+         flex-flow: column;
+     }
+ 
+     .f-datos-procesador p{
+         font-family: 'Open Sans';
+         font-weight: normal;
+         font-size: 11px;
+         line-height: 26px;
+         letter-spacing : -0.19px;
+         text-align: center;
+         color : #FFFFFF;
+         margin-bottom: 2em;
+     }
+ 
+     .f-datos-procesador span{
+         font-size: 25px;
+     }
+ 
+     /* CARGA RAPIDA */
+ 
+     .f-carga-rapida{
+        height: 44vh;
+        background: url('./img/fondo-carga-rapida.png');
+        background-size: cover;
+        background-position: right;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        padding-left: 33px;
+        padding-top: 2em;
+     }
+ 
+     .f-carga-rapida p{
+         font-family : 'Open Sans';
+         font-size: 15px;
+         line-height: 30.95px;
+         color : #FFFFFF;
+         margin: 0;
+     }
+ 
+     .f-carga-rapida span{
+         font-family : 'Open Sans';
+         font-size: 23px;
+         line-height: 32px;
+         color : #FFFFFF;
+         margin-top: 0px;
+         margin-bottom: 0px;
+     }
+ 
+     /* NOTAS */
+ 
+     .f-notas{
+         padding: 22px 30px 21px 26px;
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     .f-notas p, .f-notas li{
+         font-family : 'Open Sans';
+         font-weight: normal;
+         font-size: 13px;
+         line-height: 18px;
+         color : #7F7F7F;
+     }
+ 
+     .f-notas p{
+         margin-top: 0;
+         margin-bottom: 0px;
+     }
+ 
+     .f-notas li{
+         margin-bottom: 20px;
+     }
+ 
+     /* ESPECIFICACIONES */
+ 
+     .f-especificaciones{
+         background: #000;
+         padding: 0 23px 10px 30px;
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     .f-especificaciones .f-title{
+         margin-top: 37px;
+         margin-bottom: 14px;
+         font-family : 'Open Sans';
+         font-weight : bold;
+         font-size: 26px;
+         line-height : 56px;
+         text-align: center;
+         color : #FFFFFF;
+     }
+ 
+     .f-especificaciones table{
+         color: #fff;
+         width: 100%;
+     }
+ 
+     .f-especificaciones table tr{
+         border: 2px solid #fff;
+     }
+ 
+     .f-especificaciones table td{
+         font-family : 'Open Sans';
+         font-weight: normal;
+         font-size: 11px;
+         letter-spacing : -0.16px;
+         color : #FFFFFF;
+         width: 50%;
+         padding-bottom: 16px;
+         padding-top: 16px;
+         padding-left: 19px;
+         border-bottom: 2px solid #fff;
+     }
+ 
+     .f-especificaciones .last-row td{
+         border-bottom: none;
+     }
+ 
+     .f-especificaciones table tr td:first-child{
+         border-right: 2px solid #fff;
+     }
+ }
+
+ @media screen and (min-width: 720px) and (max-width: 768px) {
+    /* BANNER */
+ 
+     .f-banner{
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     /* ASPECTOS */ 
+ 
+     .f-specs{
+         background-image: url('./img/sepcs-xs.png');
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         height: 640px;
+         display: flex;
+         align-items: center;
+     }
+ 
+     .flex-row{
+         display: flex;
+         justify-content: space-between;
+     }
+ 
+     .flex-cont{
+         height: 100%;
+         display: flex;
+         flex-flow: column;
+         justify-content: space-between;
+     }
+ 
+     .f-sec-1{
+         padding: 18px 30px 18px 30px;
+     }
+ 
+     .f-sec-2{
+         padding: 18px 30px 18px 30px;
+     }
+ 
+     .f-sec-3{
+         padding: 18px 30px 18px 30px;
+     }
+ 
+     .f-sec-4{
+         padding: 18px 30px 18px 30px;
+     }
+ 
+     .cont-specs{
+         text-align: left;
+         width: 50%;
+         padding-right: 1em;
+     }
+ 
+     .cont-specs p{
+         font-family: 'Open Sans';
+         font-weight: normal;
+         font-size : 13px;
+         line-height : 15px;
+         color : #FFFFFF;
+         margin: 0;
+         margin-top: 1em;
+     }
+ 
+     .cont-specs span{
+         font-family: 'Open Sans';
+         font-weight: 600;
+         font-size : 13px;
+         line-height : 15px;
+         color : #FFFFFF;
+ 
+     }
+ 
+     /* PANTALLA */
+ 
+     .f-pantalla{
+         background:  #0F0014;
+         padding: 30px 20px 0 19px;
+     }
+ 
+     .f-pantalla .f-title{
+         font-family : 'Open Sans';
+         font-weight: 600;
+         font-size : 20px;
+         line-height : 24px;
+         color : #FFFFFF;
+         text-align: center;
+     }
+ 
+     .f-pantalla .f-info{
+         font-family : 'Open Sans';
+         font-weight: normal;
+         font-size : 12px;
+         line-height : 19px;
+         color : #FFFFFF;
+         text-align: center;
+     }
+ 
+     .f-composicion{
+         display: flex;
+         flex-flow: column;
+         background-image: url('./img/Degrade.png');
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: bottom;
+     }
+ 
+     #f-herz{
+         width: 30%;
+         margin: 2em auto;
+     }
+ 
+     #f-phone{
+         width: 90%;
+         margin: 0 auto;
+     }
+ 
+     .f-datos{
+         display: flex;
+         justify-content: space-around;
+     }
+ 
+     .f-pantalla .f-datos p{
+         font-family : 'Open Sans';
+         font-weight: normal;
+         font-size : 11px;
+         line-height : 12px;
+         color : #FFFFFF;
+         text-align: center;
+         margin-top: 28px;
+         margin-bottom: 10px;
+         width: 34%;
+     }
+ 
+     /* CAMARA */
+ 
+     .f-camara{
+        display: flex;
+        flex-flow: column;
+        height: 72vh;
+        background-image: url('./img/fondo-camara-xs.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        justify-content: space-between;
+        padding: 0 50px;
+     }
+ 
+     .f-detail-item:first-child{
+         width: 100%;
+         text-align: right;
+         align-items: flex-start;
+         margin-top: 2em;
+     }
+ 
+     .f-detail-item{
+         display: flex;
+         width: 100%;
+         flex-direction: column;
+         align-items: flex-end;
+         margin-bottom: 1em;
+         text-align: left;
+         min-width:auto;
+     }
+ 
+     .f-info-camara{
+         font-family: 'Open Sans';
+         font-weight: unset;
+         font-size: 20px;
+         line-height: 38px;
+         color: #FFFFFF;
+         margin: 0;
+         min-width: auto;
+     }
+ 
+     .f-info-camara span{
+         font-size: 39px;
+     }
+ 
+     .f-camara i {
+         display:none;
+     }
+ 
+     /* SELFIE */
+ 
+     .f-selfie{
+         display: flex;
+         flex-flow: column;
+         background-color: #000;
+         padding: 97px 0 111px 0;
+     }
+ 
+     .f-selfie .f-title{
+         font-family : 'Open Sans';
+         font-weight: 600;
+         font-size: 27px;
+         line-height: 46px;
+         color : #FFFFFF;
+         text-align: center;
+         margin-bottom: 44px;
+     }
+ 
+     .f-icons{
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+         flex-flow: column;
+     }
+ 
+     .f-item{
+         display: flex;
+         flex-flow: column;
+         margin-bottom: 34px;
+     }
+ 
+     .f-item img{
+         width: 50%;
+         margin: 0 auto;
+     }
+ 
+     .f-icons p{
+         font-family : 'Open Sans';
+         text-align: center;
+         font-weight: normal;
+         font-size : 22px;
+         line-height : 85.3px;
+         color : #FFFFFF;
+         margin: 0;
+ 
+     }
+ 
+     .selfie{
+         display: flex;
+         justify-content: space-between;
+         flex-flow: column;
+     }
+ 
+     .selfie .f-card{
+         width: 100%;
+     }
+ 
+     .selfie .f-card.first{
+         padding-right: 0;
+     }
+ 
+     .selfie .f-card img{
+         width: 100%;
+     }
+ 
+     .selfie .f-card p{
+         font-family : 'Open Sans';
+         font-weight : bold;
+         font-size : 26px;
+         line-height : 56px;
+         color : #FFD000;
+         text-align: center;
+         margin-bottom: 44px;
+     }
+ 
+     .selfie .f-card.first p{
+         margin-right: 0;
+         border-right: none;
+     }
+ 
+     .selfies .f-card{
+         width: 100%;
+     }
+ 
+     .selfies .f-card img{
+         width: 100%;
+     }
+ 
+     .selfies .f-card p{
+         width: 70%;
+         margin: 0 auto;
+         margin-top: 50px;
+         font-family: 'Open Sans';
+         font-size: 26px;
+         font-weight: bold;
+         line-height: 56px;
+         color: #FFD000;
+         text-align: center;
+         border-bottom: 5px solid #fff;
+         padding-bottom: 20px;
+     }
+ 
+     /* CAMARAS CUADRUPLES*/
+ 
+     .f-camaras{
+         display: flex;
+         flex-flow: column;
+         align-items: flex-end;
+         background: url('./img/fondo-cuatro-camaras.png');
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: bottom right;
+         height: 66vh;
+         padding-top: 50px;
+         padding-bottom: 0;
+         justify-content: flex-start;
+     }
+ 
+     .f-info{
+         width: 100%;
+         text-align: center;
+     }
+ 
+     .f-info .f-call{
+         font-family : 'Open Sans';
+         font-weight: 600;
+         font-size: 14px;
+         letter-spacing : -0.18px;
+         color : #FFFFFF;
+         margin-top: 0;
+         margin-bottom: 22px;
+     }
+ 
+     .f-info .f-title{
+         font-family: 'Open Sans';
+         font-weight: 600;
+         font-size: 30px;
+         line-height : 56px;
+         color : #FFFFFF;
+         margin-top: 0;
+         margin-bottom: 2em;
+     }
+ 
+     .f-cellphone{
+         display: flex;
+         flex-flow: column;
+         justify-content: flex-end;
+         padding-left: 0;
+         width: 100%;
+         margin-top: 0;
+         height: auto;
+     }
+ 
+     .f-cellphone .f-camara-item{
+         display: flex;
+         flex-direction: column;
+         align-items: flex-end;
+         overflow: hidden;
+         margin-bottom: 0px;
+     }
+ 
+     .f-cellphone .f-camara-item p{
+         font-family: 'Open Sans';
+         font-weight: normal;
+         font-size: 13px;
+         line-height: 22px;
+         color: #fff;
+         margin-bottom: 0;
+         margin-top: 0;
+         min-width: auto;
+     }
+ 
+     .f-cellphone .f-camara-item p span{
+         font-family: 'Open Sans';
+         font-size: 20px;
+         line-height: 6px;
+         margin-bottom: 5px;
+         font-weight: 400;
+         color: #fff;
+     }
+ 
+     .f-camaras i {
+         display: none;
+     }
+ 
+     .f-cellphone .f-camara-item.first{
+         margin-top: 0;
+         text-align: right;
+         margin-left: 0;
+         width: 65%;
+     }
+ 
+     .f-cellphone .f-camara-item.second{
+         margin-top: 0.5em;
+         text-align: right;
+         margin-left: 0;
+         width: 58%;
+     }
+ 
+     .f-cellphone .f-camara-item.third{
+         margin-top: 0.5em;
+         margin-bottom: 0em;
+         text-align: right;
+         margin-left: 0;
+         width: 52%;
+     }
+ 
+     .f-cellphone .f-camara-item.fourd{
+         margin-top: 0.5em;
+         margin-bottom: 2em;
+         text-align: right;
+         margin-left: 0;
+         width: 46%;
+     }
+ 
+ 
+     /* RESOLUCION */
+ 
+     .f-resolucion{
+         background-color: #000;
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     .f-resolucion .flex-row{
+         display: flex;
+     }
+ 
+     .f-resolucion .flex-row .flex-item{
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     .f-resolucion .f-title{
+         font-family : 'Open Sans';
+         font-size: 22px;
+         line-height: 35px;
+         margin-top: 31px;
+         margin-bottom: 54px;
+         color:#FFF;
+         text-align: center;
+     }
+ 
+     .f-resolucion img{
+         width: 100%;
+     }
+ 
+     .f-resolucion .flex-row .flex-item.left{
+         padding: 0 10px 20px 20px;
+     }
+ 
+     .f-resolucion .flex-row .flex-item.right{
+         padding: 0px 20px 20px 10px;
+     }
+ 
+     .f-resolucion .flex-row .flex-item.full{
+         padding: 0px 20px 20px 20px;
+     }
+ 
+     .f-resolucion .flex-row .flex-item p{
+         font-family : 'Open Sans';
+         font-weight : bold;
+         font-size: 21px;
+         line-height: 18px;
+         color : #FFCD00;
+         padding-top: 24px;
+         padding-bottom: 15px;
+         margin: 0;
+         border: 4px solid #ffcd00;
+         border-top:none;
+         text-align: center;
+     }
+ 
+     .f-resolucion .f-bajada{
+         font-family : 'Open Sans';
+         font-size: 20px;
+         line-height: 30px;
+         color : #FFFFFF;
+         text-align: center;
+         margin-top: 0;
+         margin-bottom: 47px;
+     }
+ 
+     /* COLORES */
+ 
+     .f-redphone{
+         padding: 21px 27px;
+         height: 176px;
+         background-image: url('./img/6Pro_Color_RojoRelampago.jpg');
+         background-size: 222%;
+         background-repeat: no-repeat;
+         background-position: center;
+         display: flex;
+         flex-flow: column;
+         justify-content: flex-end;
+         align-items: flex-start;
+     }
+ 
+     .f-bluephone{
+         padding: 21px 27px;
+         height: 176px;
+         background-image: url('./img/6Pro_Color_AzulRelampago.jpg');
+         background-size: 222%;
+         background-repeat: no-repeat;
+         background-position: center;
+         display: flex;
+         justify-content: flex-end;
+         align-items: flex-end;
+     }
+ 
+     .f-redphone p{
+         font-family : 'Open Sans';
+         font-size: 24px;
+         line-height: 32px;
+         color : #FFFFFF;
+         text-align: left;
+         margin: 0;
+     }
+ 
+     .f-bluephone p{
+         font-family : 'Open Sans';
+         font-size: 24px;
+         line-height: 32px;
+         color : #FFFFFF;
+         text-align: right;
+         margin: 0;
+     }
+ 
+     /* ESTILOS REUSABLES */
+     .w-100{
+         width: 100%;
+     }
+ 
+     /* DEBUT */
+     .f-debut{
+         background: #000;
+         padding-top: 70px;
+         padding-bottom: 41px;
+     }
+ 
+     .f-debut img{
+         width: 100%;
+     }
+ 
+     .f-debut .f-title{
+         font-family: 'Open Sans';
+         font-weight: normal;
+         font-size: 21px;
+         line-height: 38px;
+         color : #FFFFFF;
+         text-align: center;
+         margin: 0px auto;
+     }
+ 
+     .f-datos-procesador{
+         display: flex;
+         justify-content: space-around;
+         flex-flow: column;
+     }
+ 
+     .f-datos-procesador p{
+         font-family: 'Open Sans';
+         font-weight: normal;
+         font-size: 11px;
+         line-height: 26px;
+         letter-spacing : -0.19px;
+         text-align: center;
+         color : #FFFFFF;
+         margin-bottom: 2em;
+     }
+ 
+     .f-datos-procesador span{
+         font-size: 25px;
+     }
+ 
+     /* CARGA RAPIDA */
+ 
+     .f-carga-rapida{
+        height: 44vh;
+        background: url('./img/fondo-carga-rapida.png');
+        background-size: cover;
+        background-position: right;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        padding-left: 33px;
+        padding-top: 2em;
+     }
+ 
+     .f-carga-rapida p{
+         font-family : 'Open Sans';
+         font-size: 15px;
+         line-height: 30.95px;
+         color : #FFFFFF;
+         margin: 0;
+     }
+ 
+     .f-carga-rapida span{
+         font-family : 'Open Sans';
+         font-size: 23px;
+         line-height: 32px;
+         color : #FFFFFF;
+         margin-top: 0px;
+         margin-bottom: 0px;
+     }
+ 
+     /* NOTAS */
+ 
+     .f-notas{
+         padding: 22px 30px 21px 26px;
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     .f-notas p, .f-notas li{
+         font-family : 'Open Sans';
+         font-weight: normal;
+         font-size: 13px;
+         line-height: 18px;
+         color : #7F7F7F;
+     }
+ 
+     .f-notas p{
+         margin-top: 0;
+         margin-bottom: 0px;
+     }
+ 
+     .f-notas li{
+         margin-bottom: 20px;
+     }
+ 
+     /* ESPECIFICACIONES */
+ 
+     .f-especificaciones{
+         background: #000;
+         padding: 0 23px 10px 30px;
+         display: flex;
+         flex-flow: column;
+     }
+ 
+     .f-especificaciones .f-title{
+         margin-top: 37px;
+         margin-bottom: 14px;
+         font-family : 'Open Sans';
+         font-weight : bold;
+         font-size: 26px;
+         line-height : 56px;
+         text-align: center;
+         color : #FFFFFF;
+     }
+ 
+     .f-especificaciones table{
+         color: #fff;
+         width: 100%;
+     }
+ 
+     .f-especificaciones table tr{
+         border: 2px solid #fff;
+     }
+ 
+     .f-especificaciones table td{
+         font-family : 'Open Sans';
+         font-weight: normal;
+         font-size: 11px;
+         letter-spacing : -0.16px;
+         color : #FFFFFF;
+         width: 50%;
+         padding-bottom: 16px;
+         padding-top: 16px;
+         padding-left: 19px;
+         border-bottom: 2px solid #fff;
+     }
+ 
+     .f-especificaciones .last-row td{
+         border-bottom: none;
+     }
+ 
+     .f-especificaciones table tr td:first-child{
+         border-right: 2px solid #fff;
+     }
+ }
+
+
+/* TABLET */
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+    /* ESTILOS GENERALES */
+
+    body{
+        margin: 0;
+        width: 100%;
+    }
+
+    .content{
+        display: flex;
+        flex-flow: column;
+    }
+
+    /* BANNER */
+
+    .f-banner{
+        display: flex;
+        flex-flow: column;
+    }
+
+    /* ASPECTOS */ 
+
+    .f-specs{
+        background-image: url('./img/Specs.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .flex-row{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .f-sec-1{
+        padding: 18px 75px 18px 49px;
+    }
+
+    .f-sec-2{
+        padding: 18px 71px 18px 58px;
+    }
+
+    .f-sec-3{
+        padding: 18px 68px 18px 92px;
+    }
+
+    .f-sec-4{
+        padding: 18px 195px 18px 147px;
+    }
+
+    .cont-specs{
+        text-align: center;
+    }
+
+    .cont-specs p{
+        font-family: 'Open Sans';
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 23.26px;
+        color : #FFFFFF;
+        margin: 0;
+    }
+
+    .cont-specs span{
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 23.26px;
+        color : #FFFFFF;
+    }
+
+    /* TRAILER */
+
+    .f-video{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .f-video video{
+        border: none;
+    }
+
+    /* PANTALLA */
+
+    .f-pantalla{
+        background-color: #0f0013;
+        padding: 77px 80px 0 80px;
+    }
+
+    .f-pantalla .f-title{
+        font-family : 'Open Sans';
+        font-weight: 600;
+        font-size : 40px;
+        line-height : 48.78px;
+        color : #FFFFFF;
+        text-align: center;
+    }
+
+    .f-pantalla .f-info{
+        font-family : 'Open Sans';
+        font-weight: normal;
+        font-size : 16px;
+        line-height : 20px;
+        color : #FFFFFF;
+        text-align: center;
+    }
+
+    .f-composicion{
+        display: flex;
+        flex-flow: column;
+        background-image: url('./img/Degrade.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    #f-herz{
+        width: 30%;
+        margin: 3em auto;
+    }
+
+    #f-phone{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .f-datos{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .f-pantalla .f-datos p{
+        font-family : 'Open Sans';
+        font-weight: normal;
+        font-size : 22px;
+        line-height : 34px;
+        color : #FFFFFF;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 65px;
+    }
+
+    /* CAMARA */
+
+    .f-camara{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        height: 100vh;
+        background-image: url('./img/fondo-camara-xs.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left center;
+        padding: 0 104px;
+    }
+
+    .f-detail-item:first-child{
+            margin-bottom: 20px;
+            margin-top: 0;
+            height: auto;
+            justify-content: flex-start;
+            text-align: right;
+        }
+
+        .f-detail-item{
+            display: flex;
+            width: 100%;
+            align-items: flex-end;
+            overflow: hidden;
+            justify-content: flex-end;
+            text-align: left;
+        }
+
+    .f-info-camara{
+        font-family : 'Open Sans';
+        font-weight: unset;
+        font-size : 21px;
+        line-height : 38px;
+        color : #FFFFFF;
+        margin: 0;
+        min-width: auto;
+    }
+
+    .f-info-camara span{
+        font-size: 53px;
+    }
+
+    .f-camara i {
+            border: 1px solid #fff;
+            width: 100%;
+            display: none;
+        }
+
+    /* SELFIE */
+
+    .f-selfie{
+        display: flex;
+        flex-flow: column;
+        background-color: #000;
+        padding: 97px 0 111px 0;
+    }
+
+    .f-selfie .f-title{
+        font-family : 'Open Sans';
+        font-weight: 600;
+        font-size: 33px;
+        line-height: 58px;
+        color : #FFFFFF;
+        text-align: center;
+        margin-bottom: 75px;
+    }
+
+    .f-icons{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+
+    .f-item{
+        display: flex;
+        flex-flow: column;
+        margin-bottom: 81px;
+    }
+
+    .f-item img{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .f-icons p{
+        font-family : 'Open Sans';
+        text-align: center;
+        font-weight: normal;
+        font-size : 22px;
+        line-height : 85.3px;
+        color : #FFFFFF;
+        margin: 0;
+
+    }
+
+    .selfie{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .selfie .f-card{
+        width: 50%;
+    }
+
+    .selfie .f-card.first{
+        padding-right: 3em;
+    }
+
+    .selfie .f-card img{
+        width: 100%;
+    }
+
+    .selfie .f-card p{
+        font-family : 'Open Sans';
+        font-weight : bold;
+        font-size: 17px;
+        line-height: 33px;
+        color : #FFD000;
+        text-align: center;
+        margin-bottom: 44px;
+    }
+
+    .selfie .f-card.first p{
+        margin-right: -1em;
+        border-right: 5px solid #fff;
+    }
+
+    .selfies .f-card{
+        width: 100%;
+    }
+
+    .selfies .f-card img{
+        width: 100%;
+    }
+
+    .selfies .f-card p{
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 50px;
+        font-family: 'Open Sans';
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 56px;
+        color: #FFD000;
+        text-align: center;
+        border-bottom: 5px solid #fff;
+        padding-bottom: 20px;
+    }
+
+    /* CAMARAS CUADRUPLES*/
+
+    .f-camaras{
+        display: flex;
+        flex-flow: column;
+        align-items: flex-end;
+        justify-content: space-between;
+        background: url('./img/fondo-cuatro-camaras-xs.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        height: auto;
+        padding-top: 50px;
+    }
+
+    .f-info{
+        width: 100%;
+        text-align: center;
+    }
+
+    .f-info .f-call{
+        font-family : 'Open Sans';
+        font-weight: 600;
+        font-size : 22px;
+        letter-spacing : -0.18px;
+        color : #FFFFFF;
+        margin-top: 0;
+        margin-bottom: 18px;
+    }
+
+    .f-info .f-title{
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size : 41px;
+        line-height : 56px;
+        color : #FFFFFF;
+        margin-top: 0;
+        margin-bottom: 81px;
+    }
+
+    .f-cellphone{
+        display: flex;
+        flex-flow: column;
+        padding-left: 116px;
+        width: 90%;
+        padding-bottom: 2em;
+    }
+
+    .f-cellphone .f-camara-item{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        overflow: hidden;
+        margin-bottom: 0px;
+        text-align: right;
+    }
+
+    .f-cellphone .f-camara-item p{
+        font-family: 'Open Sans';
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 26px;
+        color: #fff;
+        margin-bottom: 0;
+        margin-top: 0;
+        min-width: auto;
+        text-align: right;
+    }
+
+    .f-cellphone .f-camara-item p span{
+        font-family: 'Open Sans';
+        font-size: 27px;
+        line-height: 29px;
+        margin-bottom: 5px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    .f-camaras i {
+        border: 1px solid #fff;
+        width: 100%;
+        display: none;
+    }
+
+    .f-cellphone .f-camara-item.first{
+        margin-top: 0;
+        text-align: left;
+        width: 55%;
+    }
+
+    .f-cellphone .f-camara-item.second{
+        margin-top: 1em;
+        text-align: left;
+        width: 45%;
+    }
+
+    .f-cellphone .f-camara-item.third{
+        margin-top: 1em;
+        text-align: left;
+        width: 34%;
+    }
+
+    .f-cellphone .f-camara-item.fourd{
+        margin-top: 1em;
+        text-align: left;
+        width: 25%;
+    }
+
+
+    /* RESOLUCION */
+
+    .f-resolucion{
+        background-color: #000;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .f-resolucion .flex-row{
+        display: flex;
+    }
+
+    .f-resolucion .flex-row .flex-item{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .f-resolucion .f-title{
+        font-family : 'Open Sans';
+        font-size : 41px;
+        line-height : 56px;
+        margin-top: 114px;
+        margin-bottom: 113px;
+        color:#FFF;
+        text-align: center;
+    }
+
+    .f-resolucion img{
+        width: 100%;
+    }
+
+    .f-resolucion .flex-row .flex-item.left{
+        padding: 0 26px 42px 74px;
+    }
+
+    .f-resolucion .flex-row .flex-item.right{
+        padding: 0px 74px 42px 26px;
+    }
+
+    .f-resolucion .flex-row .flex-item.full{
+        padding: 0px 74px 110px 74px;
+    }
+
+    .f-resolucion .flex-row .flex-item p{
+        font-family : 'Open Sans';
+        font-weight : bold;
+        font-size : 26px;
+        line-height : 56px;
+        color : #FFCD00;
+        padding-top: 48px;
+        padding-bottom: 30px;
+        margin: 0;
+        border: 4px solid #ffcd00;
+        border-top:none;
+        text-align: center;
+    }
+
+    .f-resolucion .f-bajada{
+        font-family : 'Open Sans';
+        font-size : 41px;
+        line-height : 56px;
+        color : #FFFFFF;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 97px;
+    }
+
+    /* COLORES */
+
+    .f-redphone{
+        padding: 50px 72px;
+        height: 100vh;
+        background-image: url('./img/6Pro_Color_RojoRelampago.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    .f-bluephone{
+        padding: 50px 72px;
+        height: 100vh;
+        background-image: url('./img/6Pro_Color_AzulRelampago.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .f-redphone p{
+        font-family : 'Open Sans';
+        font-size : 35px;
+        line-height : 41px;
+        color : #FFFFFF;
+        text-align: left;
+    }
+
+    .f-bluephone p{
+        font-family : 'Open Sans';
+        font-size : 35px;
+        line-height : 41px;
+        color : #FFFFFF;
+        text-align: right;
+    }
+
+    /* ESTILOS REUSABLES */
+    .w-100{
+        width: 100%;
+    }
+
+    /* DEBUT */
+    .f-debut{
+        background: #000;
+        padding-top: 140px;
+        padding-bottom: 81px;
+    }
+
+    .f-debut img{
+        width: 100%;
+    }
+
+    .f-debut .f-title{
+        font-family: 'Open Sans';
+        font-weight: normal;
+        font-size: 33px;
+        line-height: 44px;
+        color : #FFFFFF;
+        text-align: center;
+        margin: 0px auto;
+    }
+
+    .f-datos-procesador{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .f-datos-procesador p{
+        font-family: 'Open Sans';
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 32px;
+        letter-spacing : -0.19px;
+        text-align: center;
+        color : #FFFFFF;
+    }
+
+    .f-datos-procesador span{
+        font-size: 27px;
+    }
+
+    /* CARGA RAPIDA */
+
+    .f-carga-rapida{
+        height: 94vh;
+        background: url('./img/fondo-carga-rapida.png');
+        background-size: cover;
+        background-position: left;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        padding-left: 63px;
+    }
+
+    .f-carga-rapida p{
+        font-family : 'Open Sans';
+        font-size : 20px;
+        line-height : 40.95px;
+        color : #FFFFFF;
+        margin: 0;
+    }
+
+    .f-carga-rapida span{
+        font-family : 'Open Sans';
+        font-size : 41px;
+        line-height : 56px;
+        color : #FFFFFF;
+        margin-top: 28px;
+        margin-bottom: 23px;
+    }
+
+    /* NOTAS */
+
+    .f-notas{
+        padding: 44px 167px 79px 74px;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .f-notas p, .f-notas li{
+        font-family : 'Open Sans';
+        font-weight: normal;
+        font-size: 16px;
+        line-height : 20px;
+        color : #7F7F7F;
+    }
+
+    .f-notas p{
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+
+    .f-notas li{
+        margin-bottom: 20px;
+    }
+
+    /* ESPECIFICACIONES */
+
+    .f-especificaciones{
+        background: #000;
+        padding: 0 30px 20px 63px;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .f-especificaciones .f-title{
+        margin-top: 89px;
+        margin-bottom: 79px;
+        font-family : 'Open Sans';
+        font-weight : bold;
+        font-size : 40px;
+        line-height : 56px;
+        text-align: center;
+        color : #FFFFFF;
+    }
+
+    .f-especificaciones table{
+        color: #fff;
+        width: 100%;
+    }
+
+    .f-especificaciones table tr{
+        border: 2px solid #fff;
+    }
+
+    .f-especificaciones table td{
+        font-family : 'Open Sans';
+        font-weight: normal;
+        font-size : 20px;
+        letter-spacing : -0.16px;
+        color : #FFFFFF;
+        width: 50%;
+        padding-bottom: 16px;
+        padding-top: 16px;
+        padding-left: 19px;
+        border-bottom: 2px solid #fff;
+    }
+
+    .f-especificaciones .last-row td{
+        border-bottom: none;
+    }
+
+    .f-especificaciones table tr td:first-child{
+        border-right: 2px solid #fff;
+    }
+}
+
+@media screen and (min-width: 1020px) and (min-width: 1260px) {
+    .f-camaras {
+        display: flex;
+        flex-flow: column;
+        align-items: flex-end;
+        background: url(./img/fondo-cuatro-camaras.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        height: 93vh;
+        padding-top: 50px;
+        justify-content: space-between;
+        padding-bottom: 3em;
+    }
+}
+
+/* 4K */
+
+@media screen and (min-width: 1600px){ 
+    /* ESTILOS GENERALES */
+
+    body{
+        margin: 0;
+        width: 100%;
+    }
+
+    .content{
+        display: flex;
+        flex-flow: column;
+    }
+
+    /* BANNER */
+
+    .f-banner{
+        display: flex;
+        flex-flow: column;
+    }
+
+    /* ASPECTOS */ 
+
+    .f-specs{
+        background-image: url('./img/Specs.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 82vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .flex-row{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .f-sec-1{
+        padding: 40px 75px 42px 49px;
+    }
+
+    .f-sec-2{
+        padding: 40px 71px 40px 58px;
+    }
+
+    .f-sec-3{
+        padding: 40px 112px 40px 165px;
+    }
+
+    .f-sec-4{
+        padding: 40px 195px 40px 147px;
+    }
+
+    .cont-specs{
+        text-align: center;
+    }
+
+    .cont-specs p{
+        font-family: 'Open Sans';
+        font-weight: normal;
+        font-size : 16px;
+        line-height : 30.26px;
+        color : #FFFFFF;
+        margin: 0;
+    }
+
+    .cont-specs span{
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size : 16px;
+        line-height : 30.26px;
+        color : #FFFFFF;
+    }
+
+    /* TRAILER */
+
+    .f-video{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .f-video video{
+        border: none;
+    }
+
+    /* PANTALLA */
+
+    .f-pantalla{
+        background-color: #0f0013;
+        padding: 77px 80px 0 80px;
+    }
+
+    .f-pantalla .f-title{
+        font-family : 'Open Sans';
+        font-weight: 600;
+        font-size : 40px;
+        line-height : 48.78px;
+        color : #FFFFFF;
+        text-align: center;
+    }
+
+    .f-pantalla .f-info{
+        font-family : 'Open Sans';
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 44px;
+        color : #FFFFFF;
+        text-align: center;
+    }
+
+    .f-composicion{
+        display: flex;
+        flex-flow: column;
+        background-image: url('./img/Degrade.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    #f-herz{
+        width: 30%;
+        margin: 7em auto;
+    }
+
+    #f-phone{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .f-datos{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .f-pantalla .f-datos p{
+        font-family : 'Open Sans';
+        font-weight: normal;
+        font-size: 38px;
+        line-height: 59px;
+        color : #FFFFFF;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 65px;
+    }
+
+    /* CAMARA */
+
+    .f-camara{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        height: 100vh;
+        background-image: url('./img/fondo-camara.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left center;
+        padding: 0 104px;
+    }
+
+    .f-detail-item:first-child{
+        width: 55%;
+        margin-bottom: 20px;
+        margin-top: 88px;
+        height: auto;
+    }
+
+    .f-detail-item{
+        display: flex;
+        width: 70%;
+        align-items: center;
+        overflow: hidden;
+        justify-content: space-between;
+    }
+
+    .f-info-camara{
+        font-family : 'Open Sans';
+        font-weight: unset;
+        font-size: 29px;
+        line-height: 52px;
+        color : #FFFFFF;
+        margin: 0;
+        min-width: 13em;
+    }
+
+    .f-info-camara span{
+        font-size: 69px;
+    }
+
+    .f-camara i {
+        border: 1px solid #fff;
+        width: 100%;
+    }
+
+    /* SELFIE */
+
+    .f-selfie{
+        display: flex;
+        flex-flow: column;
+        background-color: #000;
+        padding: 97px 0 111px 0;
+    }
+
+    .f-selfie .f-title{
+        font-family : 'Open Sans';
+        font-weight: 600;
+        font-size : 53px;
+        line-height : 74px;
+        color : #FFFFFF;
+        text-align: center;
+        margin-bottom: 75px;
+    }
+
+    .f-icons{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+
+    .f-item{
+        display: flex;
+        flex-flow: column;
+        margin-bottom: 81px;
+    }
+
+    .f-item img{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .f-icons p{
+        font-family : 'Open Sans';
+        text-align: center;
+        font-weight: normal;
+        font-size: 33px;
+        line-height: 121.3px;
+        color : #FFFFFF;
+        margin: 0;
+    }
+
+    .selfie{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .selfie .f-card{
+        width: 50%;
+    }
+
+    .selfie .f-card.first{
+        padding-right: 3em;
+    }
+
+    .selfie .f-card img{
+        width: 100%;
+    }
+
+    .selfie .f-card p{
+        font-family : 'Open Sans';
+        font-weight : bold;
+        font-size: 36px;
+        line-height: 91px;
+        color : #FFD000;
+        text-align: center;
+        margin-bottom: 44px;
+    }
+
+    .selfie .f-card.first p{
+        margin-right: -1em;
+        border-right: 5px solid #fff;
+    }
+
+    .selfies .f-card{
+        width: 100%;
+    }
+
+    .selfies .f-card img{
+        width: 100%;
+    }
+
+    .selfies .f-card p{
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 50px;
+        font-family: 'Open Sans';
+        font-size: 46px;
+        font-weight: bold;
+        line-height: 106px;
+        color: #FFD000;
+        text-align: center;
+        border-bottom: 5px solid #fff;
+        padding-bottom: 20px;
+    }
+
+    /* CAMARAS CUADRUPLES*/
+
+    .f-camaras{
+        display: flex;
+        flex-flow: column;
+        align-items: flex-end;
+        background: url('./img/fondo-cuatro-camaras.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        height: 87vh;
+        padding-top: 50px;
+    }
+
+    .f-info{
+        width: 100%;
+        text-align: center;
+    }
+
+    .f-info .f-call{
+        font-family : 'Open Sans';
+        font-weight: 600;
+        font-size: 29px;
+        letter-spacing : -0.18px;
+        color : #FFFFFF;
+        margin-top: 0;
+        margin-bottom: 18px;
+    }
+
+    .f-info .f-title{
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 54px;
+        line-height : 56px;
+        color : #FFFFFF;
+        margin-top: 0;
+        margin-bottom: 81px;
+    }
+
+    .f-cellphone{
+        display: flex;
+        flex-flow: column;
+        padding-left: 116px;
+        width: 90%;
+        margin-top: 6em;
+    }
+
+    .f-cellphone .f-camara-item{
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        overflow: hidden;
+        margin-bottom: 0px;
+    }
+
+    .f-cellphone .f-camara-item p{
+        font-family: 'Open Sans';
+        font-weight: normal;
+        font-size: 29px;
+        line-height: 52px;
+        color: #fff;
+        margin-bottom: 0;
+        margin-top: 0;
+        min-width: 13em;
+    }
+
+    .f-cellphone .f-camara-item p span{
+        font-family: 'Open Sans';
+        font-size: 65px;
+        line-height: 52px;
+        margin-bottom: 5px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    .f-camaras i {
+        border: 1px solid #fff;
+        width: 100%;
+    }
+
+    .f-cellphone .f-camara-item.first{
+        margin-top: 0;
+        text-align: left;
+        width: 62%;
+    }
+
+    .f-cellphone .f-camara-item.second{
+        margin-top: 2em;
+        text-align: left;
+        width: 56%;
+    }
+
+    .f-cellphone .f-camara-item.third{
+        margin-top: 2em;
+        text-align: left;
+        width: 51%;
+    }
+
+    .f-cellphone .f-camara-item.fourd{
+        margin-top: 2em;
+        text-align: left;
+        width: 45%;
+    }
+
+
+    /* RESOLUCION */
+
+    .f-resolucion{
+        background-color: #000;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .f-resolucion .flex-row{
+        display: flex;
+    }
+
+    .f-resolucion .flex-row .flex-item{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .f-resolucion .f-title{
+        font-family : 'Open Sans';
+        font-size : 41px;
+        line-height : 56px;
+        margin-top: 114px;
+        margin-bottom: 113px;
+        color:#FFF;
+        text-align: center;
+    }
+
+    .f-resolucion img{
+        width: 100%;
+    }
+
+    .f-resolucion .flex-row .flex-item.left{
+        padding: 0 26px 42px 74px;
+    }
+
+    .f-resolucion .flex-row .flex-item.right{
+        padding: 0px 74px 42px 26px;
+    }
+
+    .f-resolucion .flex-row .flex-item.full{
+        padding: 0px 74px 110px 74px;
+    }
+
+    .f-resolucion .flex-row .flex-item p{
+        font-family : 'Open Sans';
+        font-weight : bold;
+        font-size: 42px;
+        line-height : 56px;
+        color : #FFCD00;
+        padding-top: 48px;
+        padding-bottom: 30px;
+        margin: 0;
+        border: 4px solid #ffcd00;
+        border-top:none;
+        text-align: center;
+    }
+
+    .f-resolucion .f-bajada{
+        font-family : 'Open Sans';
+        font-size : 41px;
+        line-height : 56px;
+        color : #FFFFFF;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 97px;
+    }
+
+    /* COLORES */
+
+    .f-redphone{
+        padding: 50px 72px;
+        height: 60vh;
+        background-image: url('./img/6Pro_Color_RojoRelampago.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    .f-bluephone{
+        padding: 50px 72px;
+        height: 60vh;
+        background-image: url('./img/6Pro_Color_AzulRelampago.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .f-redphone p{
+        font-family : 'Open Sans';
+        font-size: 47px;
+        line-height: 59px;
+        color : #FFFFFF;
+        text-align: left;
+    }
+
+    .f-bluephone p{
+        font-family : 'Open Sans';
+        font-size: 47px;
+        line-height: 59px;
+        color : #FFFFFF;
+        text-align: right;
+    }
+
+    /* ESTILOS REUSABLES */
+    .w-100{
+        width: 100%;
+    }
+
+    /* DEBUT */
+    .f-debut{
+        background: #000;
+        padding-top: 140px;
+        padding-bottom: 81px;
+    }
+
+    .f-debut img{
+        width: 100%;
+    }
+
+    .f-debut .f-title{
+        font-family: 'Open Sans';
+        font-weight: normal;
+        font-size: 52px;
+        line-height: 78px;
+        color : #FFFFFF;
+        text-align: center;
+        margin: 0px auto;
+    }
+
+    .f-datos-procesador{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .f-datos-procesador p{
+        font-family: 'Open Sans';
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 50px;
+        letter-spacing : -0.19px;
+        text-align: center;
+        color : #FFFFFF;
+    }
+
+    .f-datos-procesador span{
+        font-size: 59px;
+    }
+
+    /* CARGA RAPIDA */
+
+    .f-carga-rapida{
+        height: 100vh;
+        background: url('./img/fondo-carga-rapida.png');
+        background-size: cover;
+        background-position: right;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        padding-left: 63px;
+    }
+
+    .f-carga-rapida p{
+        font-family : 'Open Sans';
+        font-size: 28px;
+        line-height: 51.95px;
+        color : #FFFFFF;
+        margin: 0;
+    }
+
+    .f-carga-rapida span{
+        font-family : 'Open Sans';
+        font-size: 55px;
+        line-height : 56px;
+        color : #FFFFFF;
+        margin-top: 28px;
+        margin-bottom: 23px;
+    }
+
+    /* NOTAS */
+
+    .f-notas{
+        padding: 44px 167px 79px 74px;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .f-notas p, .f-notas li{
+        font-family : 'Open Sans';
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 43px;
+        color : #7F7F7F;
+    }
+
+    .f-notas p{
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+
+    .f-notas li{
+        margin-bottom: 20px;
+    }
+
+    /* ESPECIFICACIONES */
+
+    .f-especificaciones{
+        background: #000;
+        padding: 0 30px 20px 63px;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .f-especificaciones .f-title{
+        margin-top: 89px;
+        margin-bottom: 79px;
+        font-family : 'Open Sans';
+        font-weight : bold;
+        font-size: 56px;
+        line-height : 56px;
+        text-align: center;
+        color : #FFFFFF;
+    }
+
+    .f-especificaciones table{
+        color: #fff;
+        width: 100%;
+    }
+
+    .f-especificaciones table tr{
+        border: 2px solid #fff;
+    }
+
+    .f-especificaciones table td{
+        font-family : 'Open Sans';
+        font-weight: normal;
+        font-size: 32px;
+        letter-spacing : -0.16px;
+        color : #FFFFFF;
+        width: 50%;
+        padding-bottom: 16px;
+        padding-top: 16px;
+        padding-left: 19px;
+        border-bottom: 2px solid #fff;
+    }
+
+    .f-especificaciones .last-row td{
+        border-bottom: none;
+    }
+
+    .f-especificaciones table tr td:first-child{
+        border-right: 2px solid #fff;
+    }
+
+}
